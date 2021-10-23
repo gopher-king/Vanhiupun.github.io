@@ -1,5 +1,7 @@
 ### contents
 
+- **[浅谈CN2 IPLC BGP线路的区别与选择](https://vanhiupun.github.io/article/%E6%B5%85%E8%B0%88CN2%20IPLC%20BGP%E7%BA%BF%E8%B7%AF%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E9%80%89%E6%8B%A9)**
+
 - **[广告过滤规则推荐](https://vanhiupun.github.io/article/%E5%B9%BF%E5%91%8A%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E6%8E%A8%E8%8D%90)**
 
 
