@@ -1,6 +1,6 @@
 # vanhiupun blog for contents
 
-- **[Chrome、Edge 默认下载器也能多线程下载.md](https://vanhiupun.github.io/article/Chrome、Edge默认下载器也能多线程下载)**
+- **[Chrome、Edge 默认下载器也能多线程下载](https://vanhiupun.github.io/article/Chrome、Edge默认下载器也能多线程下载)**
 
 
 - **[浅谈CN2 IPLC BGP线路的区别与选择](https://vanhiupun.github.io/article/浅谈CN2IPLCBGP线路的区别与选择)**
