@@ -1,2 +1,22 @@
 # theme: owner/name --> 不要忘记删除/注释基于 gem 的主题选项
 remote_theme : " jeffreytse/jekyll-theme-yat "
+
+title: vanhiupun blog
+email: fanxiaobin422@gamil.com
+author: vanhiupun
+
+copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+
+yat:
+  date_format: "%b %d, %Y"
+
+  markdown: kramdown
+kmarkdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
