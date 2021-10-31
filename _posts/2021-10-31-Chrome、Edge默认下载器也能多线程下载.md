@@ -6,7 +6,7 @@ banner:
   image: /assets/images/banners/home.jpeg
   opacity: 0.618
   background: "#000"
-  height: "vh25"
+  height: "25vh"
   min_height: "9vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
