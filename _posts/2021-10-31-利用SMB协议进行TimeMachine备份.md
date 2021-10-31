@@ -1,5 +1,10 @@
-# 利用 SMB 协议进行 Time Machine 备份
-前言
+---
+layout: post
+title: 利用 SMB 协议进行 Time Machine 备份
+tags: [SMB]    
+---
+
+### 前言
 >macOS 为用户提供了便捷的系统备份功能：Time Machine 
 一般而言，Time Machine 需要你连接一块硬盘到你的 Mac 上才能够启动。当然，你可以通过「有线连接」和「无线连接」的方式进行备份。本文将介绍除了使用 NAS 以外，你还可以在任何能够使用 SMB 协议的设备上创建你的「时间机器」。
 
