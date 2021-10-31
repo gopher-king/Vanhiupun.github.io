@@ -1,1 +1,2 @@
-theme: jekyll-theme-yat
+# theme: owner/name --> 不要忘记删除/注释基于 gem 的主题选项
+remote_theme : " jeffreytse/jekyll-theme-yat "
