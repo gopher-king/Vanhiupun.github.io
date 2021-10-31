@@ -5,7 +5,7 @@ title: vanhiupun blog
 email: fanxiaobin422@gamil.com
 author: vanhiupun
 
-copyright: "published Work (cleft) 2017-{currentYear} {author}"
+copyright: "published Work (cleft) {currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
