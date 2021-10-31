@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Chrome、Edge 默认下载器也能多线程下载
+categories: 浏览器
 tags: [浏览器]
 ---
 ## 前言
