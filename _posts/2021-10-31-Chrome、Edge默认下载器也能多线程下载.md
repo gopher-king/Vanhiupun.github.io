@@ -2,6 +2,14 @@
 layout: post
 title: Chrome、Edge 默认下载器也能多线程下载
 categories: 浏览器
+banner:
+  image: /assets/images/banners/home.jpeg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tags: [浏览器]
 ---
 ## 前言
