@@ -3,7 +3,7 @@ layout: post
 title: 利用 SMB 协议进行 Time Machine 备份
 categories: SMB
 banner:
-  image: https://github.com/vanhiupun/Vanhiupun.github.io/blob/master/assets/images/banners/macos-big-sur-system-prefs-tm.jpg
+  image: https://vanhiupun.github.io/assets/images/banners/macos-big-sur-system-prefs-tm.jpg
   opacity: 0.618
   background: "#000"
   height: "50vh"
