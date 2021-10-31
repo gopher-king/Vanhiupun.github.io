@@ -3,7 +3,7 @@ layout: post
 title: 利用 SMB 协议进行 Time Machine 备份
 categories: SMB
 banner:
-  image: /assets/images/banners/home.jpeg
+  image: /assets/images/banners/time-machine.jpeg
   opacity: 0.618
   background: "#000"
   height: "100vh"
