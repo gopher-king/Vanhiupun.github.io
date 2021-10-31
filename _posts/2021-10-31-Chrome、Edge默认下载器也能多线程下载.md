@@ -6,6 +6,8 @@ banner:
   image: /assets/images/banners/home.jpeg
   opacity: 0.618
   background: "#000"
+  height: "vh50"
+  min_height: "19vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 tags: [浏览器]
