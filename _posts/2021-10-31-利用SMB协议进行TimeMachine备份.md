@@ -6,8 +6,8 @@ banner:
   image: https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/Big-Sur/macos-big-sur-system-prefs-tm.jpg
   opacity: 0.618
   background: "#000"
-  height: "100vh"
-  min_height: "100vh"
+  height: "50vh"
+  min_height: "50vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 tags: [SMB]    
