@@ -1,9 +1,9 @@
 # theme: owner/name --> 不要忘记删除/注释基于 gem 的主题选项
 remote_theme : " jeffreytse/jekyll-theme-yat "
 
-title: vanhiupun blog
+title: Vanhiupun blog
 email: fanxiaobin422@gamil.com
-author: vanhiupun
+author: Vanhiupun
 
 copyright: "published Work (cleft) {currentYear} {author}"
 
