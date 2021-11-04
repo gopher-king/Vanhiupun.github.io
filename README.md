@@ -23,10 +23,11 @@
 #### 📈GitHub Stats
 
 <a href="https://github.com/vanhiupun/vanhiupun">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanhiupun&show_icons=true&theme=onedark&) " />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanhiupun&show_icons=true&theme=onedark&langs_count=2) " />
 </a>
+
 <a href="https://github.com/vanhiupun/vanhiupun">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanhiupun&show_icons=true&theme=onedark&count_private=true " />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanhiupun&show_icons=true&theme=onedark&count_private=true&hide=prs& ) " />
 </a>
 
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io">
@@ -34,6 +35,3 @@
 
 <a href="https://github.com/vanhiupun/Vanhiupun">
 <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=vanhiupun&repo=vanhiupun&show_icons=true&theme=onedark " />
-
-
-
