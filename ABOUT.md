@@ -1,3 +1,7 @@
+---
+layout: archives
+title: 关于我
+---
 ### Yoo, I'm Vanhiupun 👋
 
 
