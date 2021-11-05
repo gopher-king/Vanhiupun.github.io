@@ -1,8 +1,3 @@
----
-layout: about
-title: About
----
-
 ### Yoo, I'm Vanhiupun 👋
 
 
