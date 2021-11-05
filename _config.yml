@@ -24,7 +24,7 @@ kmarkdown:
   input: GFM
 
 # Pagination setting
-paginate: 10
+paginate: 5
 
 plugins:
   - jekyll-feed
