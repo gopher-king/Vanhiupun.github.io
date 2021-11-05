@@ -23,6 +23,9 @@ yat:
 kmarkdown:
   input: GFM
 
+# Pagination setting
+paginate: 10
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
