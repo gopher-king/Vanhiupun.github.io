@@ -1,7 +1,8 @@
 ---
-layout: archives
-title: 关于我
+layout: about
+title: 关于
 ---
+
 ### Yoo, I'm Vanhiupun 👋
 
 
