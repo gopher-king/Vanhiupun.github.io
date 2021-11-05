@@ -25,10 +25,8 @@ title: 关于
 路线图：👨‍💻 -> 🎸 -> 🎹 -> 📸
 
 
-你可以进入我的Github为我点亮🌟[![GitHub](https://img.shields.io/badge/Github-%E4%BB%93%E5%BA%93-red?style=flat-square&logo=github&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun)
+**[你可以进入我的Github为我点亮🌟](https://github.com/vanhiupun)**
 
+**[也可以进入我的博客浏览我的文章 📖](https://vanhiupun.github.io)**
 
-也可以进入我的博客浏览我的文章 📖[![[Blog](https://vanhiupun.github.io)](https://img.shields.io/badge/Blog-%E5%8D%9A%E5%AE%A2-red?style=flat-square&logo=Blogger&logoColor=ffffff&color=f3a306)](https://vanhiupun.github.io)
-
-
-如果遇到什么问题欢迎给我发Email 📧[![Gmail](https://img.shields.io/badge/Gmail-%E9%82%AE%E7%AE%B1-red?style=flat-square&logo=Gmail&logoColor=ffffff&color=f3a306)](mailto:fanxiaobin422@gmail.com)
+**[如果遇到什么问题欢迎给我发Email 📧](mailto:fanxiaobin422@gmail.com)**
