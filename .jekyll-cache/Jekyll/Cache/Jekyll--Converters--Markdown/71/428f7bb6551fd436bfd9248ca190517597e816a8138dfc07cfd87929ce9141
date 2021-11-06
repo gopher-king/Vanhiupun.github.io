@@ -1,4 +1,4 @@
-I"�<<p>以下是 Markdown 语法的概述，您可以在 GitHub.com 上的任何位置或您自己的文本文件中使用它们。</p>
+I"<<p>以下是 Markdown 语法的概述，您可以在 GitHub.com 上的任何位置或您自己的文本文件中使用它们。</p>
 <h2 id="标题">标题</h2>
 
 <table>
@@ -82,18 +82,18 @@
 
 <p>使用单反引号可标注句子中的代码或命令。 倒引号中的文本不会被格式化。 您也可以按 command 或 Ctrl + e 键盘快捷键将代码块的倒引号插入到 Markdown 一行中。</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>使用 `git status` 列出尚未提交的所有新文件或已修改文件。
-</code></pre></div></div>
+<pre><code class="language-git">使用 `git status` 列出尚未提交的所有新文件或已修改文件。
+</code></pre>
 
 <p>要将代码或文本格式化为各自的不同块，请使用三反引号。</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>一些基本的 Git 命令为：
+<pre><code class="language-git">一些基本的 Git 命令为：
 ```
 git status
 git add
 git commit
 ```
-</code></pre></div></div>
+</code></pre>
 
 <p>##链接
 通过将链接文本包含在方括号 [ ] 内，然后将 URL 包含在括号 ( ) 内，可创建内联链接。</p>

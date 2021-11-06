@@ -1,37 +1,37 @@
-I"�<h3 id="打开终端cd到目标目录">打开终端<code class="language-plaintext highlighter-rouge">cd</code>到目标目录</h3>
+I"<h3 id="打开终端cd到目标目录">打开终端<code class="language-plaintext highlighter-rouge">cd</code>到目标目录</h3>
 
 <p>使用命令 <code class="language-plaintext highlighter-rouge">git status</code> ，查看本地分支文件信息</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git status <span class="c"># 确保更新时不产生冲突 （ no changes added to commit (use "git add" and/or "git commit -a" 说明没有冲突）</span>
-</code></pre></div></div>
+<pre><code class="language-git"> git status #确保更新时不产生冲突 （ no changes added to commit (use "git add" and/or "git commit -a" 说明没有冲突）
+</code></pre>
 
 <h3 id="添加修改更新过的代码">添加修改更新过的代码</h3>
 
 <p>使用命令<code class="language-plaintext highlighter-rouge">git add .</code> 将更改或者新增的文件加入到Git的索引中</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git add <span class="nb">.</span>
-</code></pre></div></div>
+<pre><code class="language-git">git add .
+</code></pre>
 
 <h3 id="确认提交当前工作目录的修改内容并添加修改原因">确认提交当前工作目录的修改内容，并添加修改原因</h3>
 
 <p>直接调用 <code class="language-plaintext highlighter-rouge">git commit</code> 命令，会提示填写注释。</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"注释内容"</span>
-</code></pre></div></div>
+<pre><code class="language-git">git commit -m "注释内容"
+</code></pre>
 
 <h3 id="拉一下远端的仓">拉一下远端的仓</h3>
 <p>使用 <code class="language-plaintext highlighter-rouge">git pull origin master</code></p>
 
 <p>拉一下远端的仓代码，然后弹出的文件，<code class="language-plaintext highlighter-rouge">q!</code> 退出即可</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull origin master
-</code></pre></div></div>
+<pre><code class="language-git">git pull origin master
+</code></pre>
 
 <h3 id="把代码推送到远端仓库">把代码推送到远端仓库</h3>
 <p>使用 <code class="language-plaintext highlighter-rouge">git push origin master</code></p>
 
 <p>等待一段时间，即可上传成功</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin master
-</code></pre></div></div>
+<pre><code class="language-git">git push origin master
+</code></pre>
 
 <h3 id="登录-github-即可看代码上传情况">登录 Github 即可看代码上传情况</h3>
 :ET
