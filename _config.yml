@@ -1,11 +1,11 @@
 # theme: owner/name --> 不要忘记删除/注释基于 gem 的主题选项
-remote_theme : " jeffreytse/jekyll-theme-yat "
+remote_theme : "jeffreytse/jekyll-theme-yat"
 
 title: Vanhiupun blog
 email: fanxiaobin422@gamil.com
 author: Vanhiupun
 
-copyright: "版权所有 (cleft) {currentYear} {author}"
+copyright: "著作权 (cleft) {currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -22,6 +22,15 @@ yat:
   markdown: kramdown
 kmarkdown:
   input: GFM
+
+# Disqus comments
+disqus: "vanhiupun"
+shortname: "vanhiupun"
+# other options
+
+# Excerpt size setting
+excerpt_size: 180
+
 
 # Pagination setting
 paginate: 5
