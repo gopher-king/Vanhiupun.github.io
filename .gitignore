@@ -33,3 +33,10 @@ Temporary Items
 
 # debug file
 _site
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+.jekyll-cache/
+.jekyll-metadata
