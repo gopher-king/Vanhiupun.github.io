@@ -19,7 +19,8 @@ favicon: "https://img.icons8.com/windows/100/000000/coffee.png" # the favicon fo
 yat:
   date_format: "%b %d, %Y"
 
-  markdown: kramdown
+markdown: kramdown
+highlighter: rouge
 kmarkdown:
   input: GFM
 
