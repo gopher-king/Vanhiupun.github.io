@@ -30,15 +30,12 @@ title: 关于
 #### 📈GitHub Stats
 
 <a href="https://github.com/vanhiupun/vanhiupun">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanhiupun&show_icons=true&theme=onedark&langs_count=2) " />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanhiupun&show_icons=true&theme=onedark&layout=compact&)" />
 </a>
 
 <a href="https://github.com/vanhiupun/vanhiupun">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanhiupun&show_icons=true&theme=onedark&count_private=true&hide=prs& ) " />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanhiupun&show_icons=true&theme=onedark&hide=prs&include_all_commits=true&count_private=true&" />
 </a>
 
-<a href="https://github.com/vanhiupun/Vanhiupun.github.io">
-<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=vanhiupun&repo=vanhiupun.github.io&show_icons=true&theme=onedark " />
-
-<a href="https://github.com/vanhiupun/Vanhiupun">
-<img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=vanhiupun&repo=vanhiupun&show_icons=true&theme=onedark " />
+ <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=vanhiupun&theme=onedark&layout=compact& " />
+</a>
