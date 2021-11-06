@@ -1,0 +1,74 @@
+I"J<h3 id="前言">前言</h3>
+<blockquote>
+  <p>广告过滤我也是一路从 AdBlock Plus 到 uBlock Origin 然后是现在的 AdGuard，无论选择哪种广告过滤方案，持续更新的过滤规则始终是核心。</p>
+</blockquote>
+
+<blockquote>
+  <p>以下第三方规则可以适用于 AdGuard，AdBlock Plus，uBlock Origin 等</p>
+</blockquote>
+
+<p>乘风视频广告拦截</p>
+
+<blockquote>
+  <p><a href="https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt">https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt</a>
+<a href="https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt">https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt</a></p>
+</blockquote>
+
+<p>主机列表</p>
+
+<blockquote>
+  <p><a href="https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts">https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts</a>
+<a href="https://raw.githubusercontent.com/vokins/yhosts/master/hosts">https://raw.githubusercontent.com/vokins/yhosts/master/hosts</a>
+<a href="https://gist.githubusercontent.com/Ewpratten/a25ae63a7200c02c850fede2f32453cf/raw/b9318009399b99e822515d388b8458557d828c37/hosts-yt-ads">https://gist.githubusercontent.com/Ewpratten/a25ae63a7200c02c850fede2f32453cf/raw/b9318009399b99e822515d388b8458557d828c37/hosts-yt-ads</a></p>
+</blockquote>
+
+<p>ABP官方维护的的适合国内使用的规则</p>
+<blockquote>
+  <p><a href="https://easylist-downloads.adblockplus.org/easylistchina.txt">https://easylist-downloads.adblockplus.org/easylistchina.txt</a></p>
+</blockquote>
+
+<p>ADgk</p>
+<blockquote>
+  <p><a href="https://banbendalao.coding.net/p/adgk/d/ADgk/git/raw/master/ADgk.txt">https://banbendalao.coding.net/p/adgk/d/ADgk/git/raw/master/ADgk.txt</a></p>
+</blockquote>
+
+<p>百度搜索结果内屏蔽百家号</p>
+<blockquote>
+  <p><a href="https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt">https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt</a></p>
+</blockquote>
+
+<p>屏蔽网站的 cookies 相关的警告</p>
+<blockquote>
+  <p><a href="https://www.i-dont-care-about-cookies.eu/abp/">https://www.i-dont-care-about-cookies.eu/abp/</a></p>
+</blockquote>
+
+<p>EasyPrivacy 是隐私保护，不被跟踪</p>
+<blockquote>
+  <p><a href="https://easylist-downloads.adblockplus.org/easyprivacy.txt">https://easylist-downloads.adblockplus.org/easyprivacy.txt</a></p>
+</blockquote>
+
+<p>koolproxyR_rule_list</p>
+<blockquote>
+  <p><a href="https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt">https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt</a></p>
+</blockquote>
+
+<p>合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX’sAnnoyance，以及补充的一些规则</p>
+<blockquote>
+  <p><a href="https://gitee.com/halflife/list/raw/master/ad.txt">https://gitee.com/halflife/list/raw/master/ad.txt</a></p>
+</blockquote>
+
+<p>Fanboy+Easylist-Merged Ultimate List</p>
+<blockquote>
+  <p><a href="https://fanboy.co.nz/r/fanboy-ultimate.txt">https://fanboy.co.nz/r/fanboy-ultimate.txt</a></p>
+</blockquote>
+
+<p>过滤youtube广告规则</p>
+<blockquote>
+  <p><a href="https://github.com/chinanjh/hosts/blob/a2129329b5fdfb3c8b52fc557b96fe12038ab966/fuck%20youtube.txt">https://github.com/chinanjh/hosts/blob/a2129329b5fdfb3c8b52fc557b96fe12038ab966/fuck%20youtube.txt</a></p>
+</blockquote>
+
+<p>自用AdGuard Home规则</p>
+<blockquote>
+  <p><a href="https://www.hostloc.com/forum.php?mod=viewthread&amp;tid=735689&amp;highlight=Adguard">https://www.hostloc.com/forum.php?mod=viewthread&amp;tid=735689&amp;highlight=Adguard</a></p>
+</blockquote>
+:ET

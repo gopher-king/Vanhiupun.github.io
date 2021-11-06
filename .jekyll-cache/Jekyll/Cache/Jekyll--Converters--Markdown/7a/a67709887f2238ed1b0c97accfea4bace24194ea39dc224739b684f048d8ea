@@ -1,0 +1,49 @@
+I"�<h2 id="前言">前言</h2>
+<p>大家在使用 Chrome、Edge 浏览器的时候，下载一些小文件往往都会直接用默认下载器，但是下载大文件的时候，一般都会搭配其他 专业多线程下载工具 使用，但是嫌麻烦…</p>
+
+<p>最近我发现 Chrome、Edge 浏览器有个多线程下载选项，默认是关闭的，我试了下发现挺好用。</p>
+
+<blockquote>
+  <p><strong>注意：任何基于 Chromium 内核的浏览器（国内套壳、Edge等）都支持该功能！</strong></p>
+</blockquote>
+
+<h2 id="一键开启">一键开启</h2>
+<ul>
+  <li><strong>Chrome 浏览器</strong>: 地址栏输入并回车：<code class="language-plaintext highlighter-rouge">chrome://flags/#enable-parallel-downloading</code></li>
+  <li><strong>Edge 新版浏览器</strong>: 地址栏输入并回车：<code class="language-plaintext highlighter-rouge">edge://flags/#enable-parallel-downloading</code></li>
+</ul>
+
+<p>就会看到如下图所示，将默认的 <code class="language-plaintext highlighter-rouge">Default</code> 改为 <code class="language-plaintext highlighter-rouge">Enabled</code> 即可！</p>
+
+<p><strong>然后重启 Chrome 浏览器再去下载个文件试试速度吧！</strong></p>
+
+<h3 id="为什么下载速度没有翻倍">为什么下载速度没有翻倍？</h3>
+
+<ul>
+  <li><strong>该文件不允许多线程下载！</strong>
+    <blockquote>
+      <p>例如，网站服务器限制了同一时间一个 IP 只能建立 1 个下载连接。</p>
+    </blockquote>
+  </li>
+  <li><strong>该文件没有显示文件总大小！</strong>
+    <blockquote>
+      <p>部分网站下载文件时，不会显示文件总大小，这样的话就没办法多线程下载了（其他任何多线程下载工具都不行），没有文件总大小，就没办法等份分割文件进行并行下载。</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="多线程下载是什么">多线程下载是什么？</h3>
+
+<p>一些人的可能并不清楚 多线程下载 是什么，我简单解释下。</p>
+
+<p>目前的 专业下载工具(HTTP下载) 之所以下载速度更快，就是因为使用了 <strong>多线程下载</strong> 技术。</p>
+<blockquote>
+  <p>目前的 BT 软件也都支持 HTTP 多线程下载（因为 BT 下载上传也是需要文件分片）。</p>
+</blockquote>
+
+<p>这个多线程下载技术很容易理解，那就是<strong>将下载的文件分割成多份</strong>。</p>
+
+<p>假设下载一个 1GB 的文件，会被<strong>分割为 8 个 128MB</strong>的文件块（8线程为例），然后与服务器建立 8 个连接，同时下载这 8 个分割后的文件块，如果<strong>单线程</strong>时最多 1MB/s 下载速度，那么现在理论上你的下载速度就从<strong>1MB/s 提高到了 8MB/s</strong>。</p>
+
+<p>这 8 个文件块都下载完成后，就会开始合并文件，这也是为什么<strong>下载完成后总会停顿一会儿才会提示下载完成</strong>。</p>
+:ET

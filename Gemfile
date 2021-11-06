@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gemspec
+gem "jekyll-theme-yat"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-paginate"
+gem "jekyll-spaceship"
 
+gem "webrick", "~> 1.7"

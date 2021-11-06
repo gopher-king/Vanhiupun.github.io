@@ -1,0 +1,3 @@
+I"^<h3 id="前言">前言</h3>
+<p>对于习惯了使用命令来完成一切的程序员来说，安装软件这种小事，自然是能够用命令解决，就不用图形界面选择。但是在 Linux 中，我们有 <code class="language-plaintext highlighter-rouge">yum</code>、<code class="language-plaintext highlighter-rouge">apt</code>、<code class="language-plaintext highlighter-rouge">dnf</code>、<code class="language-plaintext highlighter-rouge">pkg</code>等命令来完成软件的安装，macOS 却并未为我们提供一个好用的包管理器，帮助我们更好的使用 macOS。</p>
+:ET
