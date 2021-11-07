@@ -25,13 +25,14 @@ kramdown:
   input: GFM
 
 # Disqus comments
-disqus: "vanhiupun"
-shortname: "vanhiupun"
-# other options
+disqus:
+  shortname: "vanhiupun"
 
 # Excerpt size setting
 excerpt_size: 180
 
+# If you want to generate website sitemap, you can set true
+sitemap: true
 
 # Pagination setting
 paginate: 5
