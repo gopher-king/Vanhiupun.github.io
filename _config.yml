@@ -19,11 +19,10 @@ favicon: "https://img.icons8.com/material/480/000000/mailbox-closed-flag-down--v
 yat:
   date_format: "%b %d, %Y"
 
-highlighter: rouge
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 
 # Disqus comments
 disqus: "vanhiupun"
@@ -53,3 +52,4 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
   - jekyll-admin
+  - rouge
