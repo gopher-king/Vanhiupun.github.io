@@ -14,7 +14,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "https://img.icons8.com/material/480/000000/mailbox-closed-flag-down--v1.png" # the favicon for your site
+favicon: "https://img.icons8.com/ios/480/000000/folder-invoices--v1.png" # the favicon for your site
 
 yat:
   date_format: "%b %d, %Y"
