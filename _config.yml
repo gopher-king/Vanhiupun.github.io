@@ -54,3 +54,5 @@ plugins:
   - jekyll-spaceship
   - jekyll-admin
   - rouge
+  - jemoji
+  - kramdown

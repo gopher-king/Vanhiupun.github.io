@@ -8,5 +8,7 @@ gem "jekyll-sitemap"
 gem "jekyll-paginate"
 gem "jekyll-spaceship"
 gem "jekyll-admin"
-gem 'rouge', '~> 3.26', '>= 3.26.1'
+gem "rouge"
 gem "webrick", "~> 1.7"
+gem "jemoji"
+gem "kramdown"
