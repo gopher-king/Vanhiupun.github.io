@@ -63,7 +63,7 @@ $ sudo vim /etc/samba/smb.conf
 
 在配置文件的最后添加：
 
-```
+```s
 [pi]
 
     path = /home/pi/
@@ -83,13 +83,13 @@ $ sudo vim /etc/samba/smb.conf
 
 保存退出后，重启一下 samba 服务
 
-```
+```r
 $ sudo /etc/init.d/samba restart
 ```
 
 最后一步，就是添加 `pi` 用户为 `Samba`用户，这一步，会让你设置共享时的密码。
 
-```
+```r
 $ sudo smbpasswd -a pi
 ```
 
@@ -167,7 +167,7 @@ _是的，并没有你想要的那个文件夹_
 
 最后，通过 terminal 将这个磁盘设置为 TimeMachine 的备份磁盘：
 
-```
+```r
 $sudo tmutil setdestination /Volumes/TimeMachine
 ```
 
