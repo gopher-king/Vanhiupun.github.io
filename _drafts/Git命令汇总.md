@@ -12,17 +12,18 @@ banner:
   subheading_style: "color: gold"
 tags: [Git]    
 ---
-#### Git目前是各大互联网公司使用的版本控制工具，进大厂，必须要学会Git的基本使用</br>
+#### Git目前是各大互联网公司使用的版本控制工具，进大厂，必须要学会Git的基本使用
 ### Git的安装
-通过 [Git 官网](https://git-scm.com/downloads)下载需要的版本 </br>
+通过 [Git 官网](https://git-scm.com/downloads)下载需要的版本 
 ### 配置用户名和邮箱
 ```git
 git config --global [user.name](http://user.name) ‘自己的名字’
 git config --global [user.name](http://user.name) ‘自己的邮箱’
 ```
-* local 只对当前仓库有效
-* global 所有仓库有效
-* system 对系统所有用户有效</br>
+* **local 只对当前仓库有效**
+* **global 所有仓库有效**
+* **system 对系统所有用户有效**
+
 ### 查看配置
 ```git
 git config --list --local
@@ -30,7 +31,7 @@ git config --list --global
 git config --list --system
 ```
 ### 清除配置
-```
+```git
 git config --unset --local [user.name](http://user.name)
 git config --unset --global [user.name](http://user.name)
 git config --unset --system [user.name](http://user.name)
@@ -66,7 +67,7 @@ git log --pretty=oneline #查看日志，以单行显示
 git reflog #功能为查看历史操作记录，比如回退版本后想要重返“未来”可以查看最新的提交版本
 ```
 ### 版本回退
-```
+```git
 git reset --hard head #退回到上一个版本
 git reset --hard 版本号 #当知道对应的版本号时，可以用这个命令，适用于回退和前往之前的新版本
 ```
