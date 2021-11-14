@@ -52,6 +52,10 @@ header_pages:
   - tags.html
   - about.md
 
+# Google Analytics
+google_analytics: 'G-1441SBZ6E4'    # 你用Google账号去注册一个就会给你一个这样的id
+enableDNT: "false"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
