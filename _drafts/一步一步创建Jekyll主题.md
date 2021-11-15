@@ -10,170 +10,175 @@ banner:
   min_height: "50vh"
   heading_style: "font-size: 4.25em; font-weight: bold; "
   subheading_style: "color: gold"
-tags: [Jekyll,主题,Github]   
+tags: [Jekyll, 主题, Github]
 rouge: true
 ---
 
-## 搭建本地的Jekyll环境
+## 搭建本地的 Jekyll 环境
 
-1. 安装ruby环境
-  `sudo apt-get install ruby`
-2. 安装Jekyll
-  `sudo gem install jekyll`
-3. 安装kramdown
-  `sudo gem install kramdown`
-4. 安装rouge
-  `sudo gem install rouge`
-5. 测试Jekyll是否安装完成
-  `jekyll --version`
+1. 安装 ruby 环境
+   `sudo apt-get install ruby`
+2. 安装 Jekyll
+   `sudo gem install jekyll`
+3. 安装 kramdown
+   `sudo gem install kramdown`
+4. 安装 rouge
+   `sudo gem install rouge`
+5. 测试 Jekyll 是否安装完成
+   `jekyll --version`
 
-> 从上面可以看出，这是一套基于Ruby语言的工具集。
-> **题外话：**gem install是ruby用来管理ruby工具集的工具，而npm install是nodejs用来管理js工具集的工具。
+> 从上面可以看出，这是一套基于 Ruby 语言的工具集。
+> **题外话：**gem install 是 ruby 用来管理 ruby 工具集的工具，而 npm install 是 nodejs 用来管理 js 工具集的工具。
 
 ## 本地跑起来
+
 ```bash
 jekyll new mytheme
 cd mytheme
 jekyll server
 ```
-运行上面的命令，然后访问[127.0.0.1:4000](http://127.0.0.1:4000)，就能看到一个由Jekyll搭建的博客了。
 
-## Github Pages环境本地化
+运行上面的命令，然后访问[127.0.0.1:4000](http://127.0.0.1:4000)，就能看到一个由 Jekyll 搭建的博客了。
 
-上面搭建的只是Jekyll的本地环境，当push到Github Pages后环境会有所变化，为了本地看到的效果和托管在Github Pages看到的效果一致，我们最好搭建本地的Github Pages环境。
+## Github Pages 环境本地化
 
-1. 升级ruby到2.0.0以上
-  如果`ruby --version`查看版本低于2.0.0，那么需要升级ruby。
-2. 安装ruby工具集管理工具[Bundler](http://bundler.io/)
-  `sudo gem install bundler`
-3. 创建Gemfile
-  在上面的mytheme根目录下创建一个Gemfile文件，内容为：
-  `source 'https://rubygems.org'`
-  `gem 'github-pages', group::jekyll_plugins`
-4. 安装Github Pages的工具集
-  在Gemfile所在的目录，即Jekyll主题的根目录，执行下面的命令：
-  `bundle install`
+上面搭建的只是 Jekyll 的本地环境，当 push 到 Github Pages 后环境会有所变化，为了本地看到的效果和托管在 Github Pages 看到的效果一致，我们最好搭建本地的 Github Pages 环境。
+
+1. 升级 ruby 到 2.0.0 以上
+   如果`ruby --version`查看版本低于 2.0.0，那么需要升级 ruby。
+2. 安装 ruby 工具集管理工具[Bundler](http://bundler.io/)
+   `sudo gem install bundler`
+3. 创建 Gemfile
+   在上面的 mytheme 根目录下创建一个 Gemfile 文件，内容为：
+   `source 'https://rubygems.org'`
+   `gem 'github-pages', group::jekyll_plugins`
+4. 安装 Github Pages 的工具集
+   在 Gemfile 所在的目录，即 Jekyll 主题的根目录，执行下面的命令：
+   `bundle install`
 5. 跑起来
-  `bundle exec jekyll serve`
+   `bundle exec jekyll serve`
 
-如果出现`bundle exec jekyll serve`能启动，而`jekyll serve`不能启动，则删除Gemfile和Gemfile.lock重新运行`jekyll serve`即可。
-更多Github Pages本地化环境搭建，[可参考](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll)
+如果出现`bundle exec jekyll serve`能启动，而`jekyll serve`不能启动，则删除 Gemfile 和 Gemfile.lock 重新运行`jekyll serve`即可。
+更多 Github Pages 本地化环境搭建，[可参考](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll)
 
-### bundle install失败
+### bundle install 失败
 
 Fetching json 1.8.3
 An error occurred while installing json (1.8.3), and Bundler cannot continue.
 Make sure that `gem install json -v '1.8.3'` succeeds before bundling.
 
 原因：json 1.8.3 安装失败，可能是不兼容原因。
-解决：打开`Gemfile.lock`，搜索1.8.3，把`json (1.8.3)`改为`json (1.8.5)`或其他更高版本。
+解决：打开`Gemfile.lock`，搜索 1.8.3，把`json (1.8.3)`改为`json (1.8.5)`或其他更高版本。
 重试：`bundle install`
 
-## Windows下搭建Jekyll环境
-因为不少的时间在Windows平台下工作，所以后来还是搭建了Windows下的Jekyll环境。
+## Windows 下搭建 Jekyll 环境
 
-1. 安装ruby环境
-  下载[ruby for windows](http://rubyinstaller.org/downloads)，随便搜索即可，建议安装ruby2.0以上。
-2. 安装完毕，设置Windows环境变量
-  在我的电脑 - 属性 - 高级 - 环境变量 - 系统 - path字段，添加ruby的安装路径。比如`C:\Ruby22\bin;`，安装包有提供选项可以在安装时自动添加到path。
-3. 安装Jekyll
-    打开命令行，输入gem.bat (Ruby22/bin/gem.bat)，如果没有找到该命令，说明环境变量还没有生效。在命令行输入`set a = b`，然后重启命令行即可(运行set只是让命令行重新加载环境变量)。
-    执行`gem install jekyll`
-4. 安装bundler
-    `gem install bundler`
-5. 使用bundler安装github pages的依赖
-    `bundle install`
+因为不少的时间在 Windows 平台下工作，所以后来还是搭建了 Windows 下的 Jekyll 环境。
+
+1. 安装 ruby 环境
+   下载[ruby for windows](http://rubyinstaller.org/downloads)，随便搜索即可，建议安装 ruby2.0 以上。
+2. 安装完毕，设置 Windows 环境变量
+   在我的电脑 - 属性 - 高级 - 环境变量 - 系统 - path 字段，添加 ruby 的安装路径。比如`C:\Ruby22\bin;`，安装包有提供选项可以在安装时自动添加到 path。
+3. 安装 Jekyll
+   打开命令行，输入 gem.bat (Ruby22/bin/gem.bat)，如果没有找到该命令，说明环境变量还没有生效。在命令行输入`set a = b`，然后重启命令行即可(运行 set 只是让命令行重新加载环境变量)。
+   执行`gem install jekyll`
+4. 安装 bundler
+   `gem install bundler`
+5. 使用 bundler 安装 github pages 的依赖
+   `bundle install`
 6. 跑起来
-    `bundle exec jekyll server`
+   `bundle exec jekyll server`
 7. 如果端口被占用
-    `bundle exec jekyll server --port 5000`
+   `bundle exec jekyll server --port 5000`
 
-### bundle install失败
-bundle install出现了以下错误:
+### bundle install 失败
+
+bundle install 出现了以下错误:
 
 Please update your PATH to include build tools or download the DevKit
 from 'http://rubyinstaller.org/downloads' and follow the instructions
 at 'http://github.com/oneclick/rubyinstaller/wiki/Development-Kit'
-大致意思是插件需要编译安装，而系统没有安装编译环境，只有运行环境，请按照wiki里面的步骤安装。
+大致意思是插件需要编译安装，而系统没有安装编译环境，只有运行环境，请按照 wiki 里面的步骤安装。
 
 修复：
-下载[ruby-devkit](http://rubyinstaller.org/downloads)，如果ruby是32位则下载32位的devkit，否则下载64位的。
+下载[ruby-devkit](http://rubyinstaller.org/downloads)，如果 ruby 是 32 位则下载 32 位的 devkit，否则下载 64 位的。
 
-> ruby --version可以看到是32位还是64位
+> ruby --version 可以看到是 32 位还是 64 位
 
 安装：
 详细说明在[github wiki](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)里
 
-1. 解压devkit到目录A
-2. 进入目录A
+1. 解压 devkit 到目录 A
+2. 进入目录 A
 3. 命令行下运行`ruby dk.rb init`
 4. 运行`ruby dk.rb review`
 5. 运行`ruby dk.rb install`
-6. 如果上述步骤只有info输出而没有warning输出，则应该安装成功了
-7. 测试`gem install json --platform=ruby`如果安装成功，则表示devkit安装成功
-8. 如果失败，可以重装ruby和ruby-devkit，或者选择更低的ruby版本
+6. 如果上述步骤只有 info 输出而没有 warning 输出，则应该安装成功了
+7. 测试`gem install json --platform=ruby`如果安装成功，则表示 devkit 安装成功
+8. 如果失败，可以重装 ruby 和 ruby-devkit，或者选择更低的 ruby 版本
 
-### ruby/bin下面的bundle与bundle.bat区别
+### ruby/bin 下面的 bundle 与 bundle.bat 区别
 
-bundle是ruby脚本而bundle.bat是windows批处理文件
-在windows命令行下，bundle其实执行的是bundle.bat，所以不会报错。bundle文件不会被识别为可执行文件。
-在mingw命令行下(mingw/msys.bat)，bundle可以成功执行，而bundle.bat则会因为使用了windows命令而报错。
+bundle 是 ruby 脚本而 bundle.bat 是 windows 批处理文件
+在 windows 命令行下，bundle 其实执行的是 bundle.bat，所以不会报错。bundle 文件不会被识别为可执行文件。
+在 mingw 命令行下(mingw/msys.bat)，bundle 可以成功执行，而 bundle.bat 则会因为使用了 windows 命令而报错。
 
 ## 环境配置总结
+
 环境的配置，简而言之，只有以下的步骤：
 
-1. 安装ruby
+1. 安装 ruby
 2. gem install jekyll
 3. gem install bundle
-4. git clone jekyll主题
-5. cd 进入jekyll主题
+4. git clone jekyll 主题
+5. cd 进入 jekyll 主题
 6. bundle install
 7. bundle exec jekyll server
 
 ## 需要一个网页原型
 
-Github Pages和Jekyll本地环境已经搭建完成，访问[127.0.0.1:4000](http://127.0.0.1:4000)也能够看到一个简单的博客，接下来就是思考自己的博客应该长哪样。
+Github Pages 和 Jekyll 本地环境已经搭建完成，访问[127.0.0.1:4000](http://127.0.0.1:4000)也能够看到一个简单的博客，接下来就是思考自己的博客应该长哪样。
 
-一般来说，要定制自己的博客，最好先设计出博客的网页原型，所谓网页原型即是使用html、css甚至js来完成静态的网页效果。当前博客的原型只有三个页面：`index.html`、`article.html`和`post.html`。
+一般来说，要定制自己的博客，最好先设计出博客的网页原型，所谓网页原型即是使用 html、css 甚至 js 来完成静态的网页效果。当前博客的原型只有三个页面：`index.html`、`article.html`和`post.html`。
 
-最后，**Jekyll模板已经跑起来了，网页原型也有了，怎么将两者结合起来呢？**在整合之前，我们需要先了解Jekyll博客系统。
+最后，**Jekyll 模板已经跑起来了，网页原型也有了，怎么将两者结合起来呢？**在整合之前，我们需要先了解 Jekyll 博客系统。
 
-## 初步认识Jekyll
+## 初步认识 Jekyll
 
-### Jekyll是什么
+### Jekyll 是什么
 
-Jekyll的描述是，将纯文本转化为静态博客网站，不需要数据库和评论功能。
+Jekyll 的描述是，将纯文本转化为静态博客网站，不需要数据库和评论功能。
 其实更贴切的描述应该是这样
 
-> Jekyll是一个静态博客系统，在服务器启动前可写，在服务器启动后只读，所以无法实现数据库和评论功能。
+> Jekyll 是一个静态博客系统，在服务器启动前可写，在服务器启动后只读，所以无法实现数据库和评论功能。
 
 ### 静态网页
 
-静态网页和动态网页的区别是，静态网页无论是否访问，它就已经存在那里，并且内容已经固定不可改。所以Jekyll在每次增加文章时就已经生成对应的静态网页，而不是每次访问时动态生成的。
+静态网页和动态网页的区别是，静态网页无论是否访问，它就已经存在那里，并且内容已经固定不可改。所以 Jekyll 在每次增加文章时就已经生成对应的静态网页，而不是每次访问时动态生成的。
 
 举个例子
 
-> 当前Jekyll模板有一个页面：categories.html（目录和对应的文章列表页）
+> 当前 Jekyll 模板有一个页面：categories.html（目录和对应的文章列表页）
 >
-> 当新增一篇demo.md文章后，Jekyll会重新生成新的博客站点，demo.md会被转化为demo.html，而categories.html会被重新生成，内容是包含demo这篇新文章的列表。
+> 当新增一篇 demo.md 文章后，Jekyll 会重新生成新的博客站点，demo.md 会被转化为 demo.html，而 categories.html 会被重新生成，内容是包含 demo 这篇新文章的列表。
 >
-> **所以**，Jekyll的页面都是在访问前就已经重新生成了，这就是静态。
+> **所以**，Jekyll 的页面都是在访问前就已经重新生成了，这就是静态。
 
 ### 没有数据库
 
-如果`数据库`指的是像MySQL那种可读写的数据库，Jekyll确实没有。但是如果`数据库`指的只是存储数据的地方，Jekyll其实是有的，只不过是`只读`的。
+如果`数据库`指的是像 MySQL 那种可读写的数据库，Jekyll 确实没有。但是如果`数据库`指的只是存储数据的地方，Jekyll 其实是有的，只不过是`只读`的。
 
-Jekyll内的`_config.yml`配置、各种内置对象(`site`、`page`、`categories`等)、用户自定义的内容（变量、集合、文本、网页等），都可以看做是Jekyll的数据库，开发者可以访问这个数据库组织自己的页面内容，**除了可以在Jekyll构建站点时直接访问，还可以写到json格式的文件暴露出来在网页初始化时访问**。
+Jekyll 内的`_config.yml`配置、各种内置对象(`site`、`page`、`categories`等)、用户自定义的内容（变量、集合、文本、网页等），都可以看做是 Jekyll 的数据库，开发者可以访问这个数据库组织自己的页面内容，**除了可以在 Jekyll 构建站点时直接访问，还可以写到 json 格式的文件暴露出来在网页初始化时访问**。
 
-> 但有一点要注意：Jekyll内所有可访问的变量都是`静态`的，也即是`只读`的，所以不可以重新赋值！
+> 但有一点要注意：Jekyll 内所有可访问的变量都是`静态`的，也即是`只读`的，所以不可以重新赋值！
 
 ### 没有评论功能
 
-Jekyll是无法写入的，所以无法支持评论功能。任何写入操作都只能借助第三方服务。
+Jekyll 是无法写入的，所以无法支持评论功能。任何写入操作都只能借助第三方服务。
 
-## 理解Markdown是如何工作的
+## 理解 Markdown 是如何工作的
 
-这是一段markdown文本：
+这是一段 markdown 文本：
 
 ```markdown
 ## Markdown Demo
@@ -183,18 +188,18 @@ This is a `markdown` demo
 > try it
 ```
 
-使用markdown转换器转换后得到的html是这样的：
+使用 markdown 转换器转换后得到的 html 是这样的：
 
 ```html
 <h2>Markdown Demo</h2>
 <p>This is a <code>markdown</code> demo</p>
 <blockquote>
-    <p>try it</p>
+  <p>try it</p>
 </blockquote>
 ```
 
-**Markdown转换结果只是单纯的html页面，关于页面的样式，需要我们自己提供css**
-添加下面的css
+**Markdown 转换结果只是单纯的 html 页面，关于页面的样式，需要我们自己提供 css**
+添加下面的 css
 
 ```css
 <style>
@@ -211,21 +216,21 @@ blockquote {
 
 总结
 
-> Markdown解析器只是将文本转换为html，并不会为html添加默认的css样式。
-> Jekyll模板里有对应的css文件用于转换后的html页面效果。
-> **另外注意，不同的markdown转换器得到的html标签的属性可能不一样，有的转换器可能会在标签中加入转换器名称做标识，所以css选择器具体要以转换后的结果为准。**
+> Markdown 解析器只是将文本转换为 html，并不会为 html 添加默认的 css 样式。
+> Jekyll 模板里有对应的 css 文件用于转换后的 html 页面效果。
+> **另外注意，不同的 markdown 转换器得到的 html 标签的属性可能不一样，有的转换器可能会在标签中加入转换器名称做标识，所以 css 选择器具体要以转换后的结果为准。**
 
-比如，Markdown的TOC功能得到的列表是这样的
+比如，Markdown 的 TOC 功能得到的列表是这样的
 
 ```html
 <ul id="markdown-toc">
-<li>目录</li>
+  <li>目录</li>
 </ul>
 ```
 
-## 理解Highlight语法高亮是如何实现的
+## 理解 Highlight 语法高亮是如何实现的
 
-markdown里代码块是这样的：
+markdown 里代码块是这样的：
 
 ````css
  ```css
@@ -233,8 +238,7 @@ markdown里代码块是这样的：
  ```
 ````
 
-
-通过rouge语法高亮引擎，得到的html内容是这样的：
+通过 rouge 语法高亮引擎，得到的 html 内容是这样的：
 
 ```html
 <div class="language-css highlighter-rouge">
@@ -248,11 +252,11 @@ markdown里代码块是这样的：
 </div>
 ```
 
-rouge语法高亮引擎附带了对应的rouge.css：
+rouge 语法高亮引擎附带了对应的 rouge.css：
 
 ```css
 .highlight {
-  color: #D53FB7;
+  color: #d53fb7;
 }
 .highlight .o {
   color: #f92672;
@@ -266,27 +270,28 @@ rouge语法高亮引擎附带了对应的rouge.css：
 
 总结
 
-> 语法高亮引擎的作用，只是根据代码的语言，分割出与之对应的关键字、变量、字符串等，并赋予对应的css样式，最后调整css的颜色就形成了代码高亮的效果。
-> 同样，Jekyll模板里有对应的css文件用于高亮效果。
+> 语法高亮引擎的作用，只是根据代码的语言，分割出与之对应的关键字、变量、字符串等，并赋予对应的 css 样式，最后调整 css 的颜色就形成了代码高亮的效果。
+> 同样，Jekyll 模板里有对应的 css 文件用于高亮效果。
 
 `Tips`
 
-rouge.css导出需要执行命令，可以参考[rouge文档](https://github.com/jneen/rouge)
+rouge.css 导出需要执行命令，可以参考[rouge 文档](https://github.com/jneen/rouge)
 
 ```shell
 $ rougify foo.rb
 $ rougify style monokai.sublime > rouge.css
 ```
 
+## 开始制作自己的 Jekyll 主题
 
-## 开始制作自己的Jekyll主题
+### 新建 Jekyll 模板
 
-### 新建Jekyll模板
-**按照上面的指引，新建一个模板，并搭建好Github Pages的本地环境：**
+**按照上面的指引，新建一个模板，并搭建好 Github Pages 的本地环境：**
 
 `jekyll new mytheme`
 
-### 认识Jekyll模板的结构
+### 认识 Jekyll 模板的结构
+
 下面是用`tree`命令输出的目录结构，只是位置进行了调整
 
 ```ruby
@@ -334,6 +339,7 @@ $ rougify style monokai.sublime > rouge.css
 ```
 
 ### 简化模板
+
 去掉不必要的文件，简化当前模板，得到结构：
 
 ```ruby
@@ -356,24 +362,28 @@ $ rougify style monokai.sublime > rouge.css
 > 如果不知道如何动手，删除多余文件保留上面的结构即可
 
 ### 将网页原型加入模板
-把设计好的html、javascript、css复制到模板开始改造，在改造前需要**深入理解Jekyll**
 
-### 深入理解Jekyll
+把设计好的 html、javascript、css 复制到模板开始改造，在改造前需要**深入理解 Jekyll**
+
+### 深入理解 Jekyll
 
 #### `_layouts`目录
+
 该目录下的页面是”包含”其它内容的关系，一般是页面框架
 
 #### `_includes`目录
-该目录下的片段是“被包含”的关系，可以是任何格式的文件，片段也可以include片段。
-include的语法：{% raw %}  `{% include head.html %}` {% endraw %}
 
-_layouts和_includes与普通页面的关系图：
+该目录下的片段是“被包含”的关系，可以是任何格式的文件，片段也可以 include 片段。
+include 的语法：{% raw %} `{% include head.html %}` {% endraw %}
+
+\_layouts 和\_includes 与普通页面的关系图：
 ![jekyll-layout-include][jekyll-layout-include]
 
-> 注意：default.html里访问index.html生成的内容是直接访问`content`，而不是`page.content`或`post.content`，这两者的关系大概是前者才是经过处理后的html片段，而后者是原始的文本，包含未解析的liquid语法。
+> 注意：default.html 里访问 index.html 生成的内容是直接访问`content`，而不是`page.content`或`post.content`，这两者的关系大概是前者才是经过处理后的 html 片段，而后者是原始的文本，包含未解析的 liquid 语法。
 
 #### `_config.yml`配置文件
-Jekyll站点的配置文件，可以存储数据，用于配置Jekyll的插件和运行环境
+
+Jekyll 站点的配置文件，可以存储数据，用于配置 Jekyll 的插件和运行环境
 
 ```ruby
 # 自定义变量
@@ -417,8 +427,9 @@ gems:
 方式一 | **某路径**下添加`xxx.html`，访问地址为`该路径/xxx.html`
 方式二 | **某路径**下添加`xxx/index.html`，访问地址为`该路径/xxx`，无需后缀
 
-#### `front matter`(Yaml头信息)
-每个页面都可以有自己的头信息，可以覆盖Jekyll和_config.yml里面的值
+#### `front matter`(Yaml 头信息)
+
+每个页面都可以有自己的头信息，可以覆盖 Jekyll 和\_config.yml 里面的值
 
 ```ruby
 ---
@@ -432,53 +443,57 @@ pid: ""       # 新建一个pid的字符串变量
 ```
 
 #### `site`变量
-来自`_config.yml`配置文件和Jekyll内置变量，下面是常用的属性：
 
-site.posts | 从新到旧排序的posts文章列表集合
-site.categories | 以目录分类的文章列表Map`{cate1:[post1, post2], cate2:[post3, post4]}`
-site.tags | 同上，以tags分类的文章列表Map`{tag1:[post1, post2], tag2:[post3, post4]}`
-site.XXX | `_config.yml`配置文件中`XXX: val`的val值，val可以是字符串/数组/集合
+来自`_config.yml`配置文件和 Jekyll 内置变量，下面是常用的属性：
+
+site.posts | 从新到旧排序的 posts 文章列表集合
+site.categories | 以目录分类的文章列表 Map`{cate1:[post1, post2], cate2:[post3, post4]}`
+site.tags | 同上，以 tags 分类的文章列表 Map`{tag1:[post1, post2], tag2:[post3, post4]}`
+site.XXX | `_config.yml`配置文件中`XXX: val`的 val 值，val 可以是字符串/数组/集合
 
 #### `page`变量
-指代当前页面的变量，在index.html里使用page，page指的就是index.html这个页面，常用属性：
 
-page.content | 页面**源码**(含有markdown/liquid等语句)
+指代当前页面的变量，在 index.html 里使用 page，page 指的就是 index.html 这个页面，常用属性：
+
+page.content | 页面**源码**(含有 markdown/liquid 等语句)
 page.title | 页面标题
-page.excerpt | 页面摘要**源码**，可通过_config.yml配置摘要算法
+page.excerpt | 页面摘要**源码**，可通过\_config.yml 配置摘要算法
 page.url | 页面的**相对路径**
 page.date | 页面的时间和日期
-page.categories | 页面的categories数组，`linux/ruby/_posts/ruby.md`文章会把linux和ruby加入categories，和上面的site.categories不同！
-page.tags | 页面的tags数组
+page.categories | 页面的 categories 数组，`linux/ruby/_posts/ruby.md`文章会把 linux 和 ruby 加入 categories，和上面的 site.categories 不同！
+page.tags | 页面的 tags 数组
 page.path | 页面的实际路径(源码路径)
 
-> 注意：当前页面的Front Matter中设置的xxx: val可以通过page.xxx访问val值
-> 另外：site.posts数组的元素post和page具有几乎一样的属性
+> 注意：当前页面的 Front Matter 中设置的 xxx: val 可以通过 page.xxx 访问 val 值
+> 另外：site.posts 数组的元素 post 和 page 具有几乎一样的属性
 
 #### `liquid`语法
-Jekyll内变量操作是使用[Liquid语法](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+
+Jekyll 内变量操作是使用[Liquid 语法](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 
 主要有：
 
 1. 显示变量的值
-    {% raw %}`{{ 变量名 }}`{% endraw %}
+   {% raw %}`{{ 变量名 }}`{% endraw %}
 
-    如果要组成字符串，可以这样：{% raw %}`"字符串头部{{ 变量名 }}字符串尾部"`{% endraw %}    
+   如果要组成字符串，可以这样：{% raw %}`"字符串头部{{ 变量名 }}字符串尾部"`{% endraw %}
 
-    也可以使用Filter：{% raw %}`{{ "字符串头部" | append : 变量名 | append : "字符串尾部" }}`{% endraw %}
+   也可以使用 Filter：{% raw %}`{{ "字符串头部" | append : 变量名 | append : "字符串尾部" }}`{% endraw %}
 
-    如，显示文章的标题：{% raw %}`{{ page.title }}`{% endraw %}
+   如，显示文章的标题：{% raw %}`{{ page.title }}`{% endraw %}
 
 2. 使用变量的值进行计算
-    文章的标题计算 {% raw %}`{% assign titleAndDate = page.title | append: page.date %}`{% endraw %}
+   文章的标题计算 {% raw %}`{% assign titleAndDate = page.title | append: page.date %}`{% endraw %}
 
-    `assign x = y`是声明一个变量并赋值，**声明必须赋值！**
+   `assign x = y`是声明一个变量并赋值，**声明必须赋值！**
 
-    `xxx | append: "str"`是Liquid语法中的Filter，可以理解为管道，也可以简单理解为`对象|方法:参数`
+   `xxx | append: "str"`是 Liquid 语法中的 Filter，可以理解为管道，也可以简单理解为`对象|方法:参数`
 
-    Filter可以连续执行：`xxx | append: "str1" | append: "str2"`
+   Filter 可以连续执行：`xxx | append: "str1" | append: "str2"`
 
-3. if语句
-  {% raw %}
+3. if 语句
+   {% raw %}
+
    ```liquid
    {% if site.title == "" %}
    {% assign title = "A" %}
@@ -488,9 +503,10 @@ Jekyll内变量操作是使用[Liquid语法](https://github.com/Shopify/liquid/w
    {% assign title = "C" %}
    {% endif %}
    ```
+
    {% endraw %}
 
-4. for语句
+4. for 语句
    {% raw %}
 
    ```liquid
@@ -499,51 +515,54 @@ Jekyll内变量操作是使用[Liquid语法](https://github.com/Shopify/liquid/w
     The post title is {{ title }}
    {% endfor %}
    ```
+
    {% endraw %}
 
-5. 访问map的key和value
-    像`site.categories`其实是一个map，访问分类是linux的文章集合有两种方式：
-    方式一: `site.categories.linux`即是分类为linux的posts列表
-    方式二: `for cate in site.categories`，`cate[0]`是linux，`cate[1]`是posts列表
+5. 访问 map 的 key 和 value
+   像`site.categories`其实是一个 map，访问分类是 linux 的文章集合有两种方式：
+   方式一: `site.categories.linux`即是分类为 linux 的 posts 列表
+   方式二: `for cate in site.categories`，`cate[0]`是 linux，`cate[1]`是 posts 列表
 
 > 注意：如果{% raw %}{% %}{% endraw %}里面的是语句，**一行只能有一个而不能有多个**
 
 ### 改造自己的主题
-至此，Jekyll的使用、Liquid的语法、Markdown的样式、语法高亮的配色都已经讲述，接下来就是动手完成自己的主题，以下是一些点：
+
+至此，Jekyll 的使用、Liquid 的语法、Markdown 的样式、语法高亮的配色都已经讲述，接下来就是动手完成自己的主题，以下是一些点：
 
 - 加入`html`、`css`、`js`等需要的文件
 - 提取相同的内容到`_includes`目录
-- 需要复用的页面框架，比如post文章页，放到`_layouts`目录
+- 需要复用的页面框架，比如 post 文章页，放到`_layouts`目录
 - 一些配置字符串，放在`_config.yml`文件内
-- 使用**Liquid语法**在页面中访问`site`，`page`等信息组织内容
-- 调整html页面标签的css定制自己的Markdown样式
-- 调整语法高亮的css定制自己的语法高亮颜色值
-- 你可能需要一个MarkdownDemo来测试站点的样式
+- 使用**Liquid 语法**在页面中访问`site`，`page`等信息组织内容
+- 调整 html 页面标签的 css 定制自己的 Markdown 样式
+- 调整语法高亮的 css 定制自己的语法高亮颜色值
+- 你可能需要一个 MarkdownDemo 来测试站点的样式
 
 ## 除此之外我做了什么
+
 请参考[我做了什么](http://www.jokinkuang.info/2016/09/18/what-did-i-do-for-the-blog.html)
 
-## 上传自己的主题到JekyllThemes
+## 上传自己的主题到 JekyllThemes
+
 如果希望自己的主题可以让更多人看到或使用，可以上传到[JekyllThemes](http://jekyllthemes.org/)这个站点
 
-1. 准备一张250x200的预览图
-2. `fork`这个[JekyllThemes](https://github.com/mattvh/jekyllthemes/fork)项目源码到自己的Github仓库
-3. 找到自己的Github仓库中fork的这个JekyllThemes项目
-4. `clone`自己仓库的JekyllThemes项目到本地
+1. 准备一张 250x200 的预览图
+2. `fork`这个[JekyllThemes](https://github.com/mattvh/jekyllthemes/fork)项目源码到自己的 Github 仓库
+3. 找到自己的 Github 仓库中 fork 的这个 JekyllThemes 项目
+4. `clone`自己仓库的 JekyllThemes 项目到本地
 5. 将预览图放到`thumbnails`目录，在`_posts`下复制一篇文章，替换为自己的主题信息
 6. 执行`bundle exec jekyll server`本地预览效果
 7. 本地调试直到网站已经添加了自己的主题
-8. `commit`并且`push`添加的代码(此时代码只是提交到自己仓库的JekyllThemes项目)
-9. 网页访问自己仓库的JekyllThemes项目，点击`New pull request`发起一个合并请求
-10. 此时提交已经发送给JekyllThemes项目的管理员，等待管理员合并提交
+8. `commit`并且`push`添加的代码(此时代码只是提交到自己仓库的 JekyllThemes 项目)
+9. 网页访问自己仓库的 JekyllThemes 项目，点击`New pull request`发起一个合并请求
+10. 此时提交已经发送给 JekyllThemes 项目的管理员，等待管理员合并提交
 
 > 注意：图片的规格最好一致，并且进行本地测试，否则即使提交了也很可能会被管理员拒绝合并代码
 
 ## 参考文档
 
-阅读·[Jekyll的中文文档](http://jekyll.bootcss.com/) | [英文文档](http://jekyllrb.com/)
-阅读·[Liquid的文档1](https://help.shopify.com/themes/liquid) | [文档2](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) | [文档3](https://shopify.github.io/liquid/)
-阅读·[语法高亮引擎rouge的文档](https://github.com/jneen/rouge) |
-阅读·[Markdown转换器kramdown的文档（支持maruku语法）](http://kramdown.gettalong.org/) |
-阅读·[Markdown转换器maruku的文档（支持TOC语法）](http://maruku.rubyforge.org/maruku.html) |
-
+阅读·[Jekyll 的中文文档](http://jekyll.bootcss.com/) | [英文文档](http://jekyllrb.com/)
+阅读·[Liquid 的文档 1](https://help.shopify.com/themes/liquid) | [文档 2](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) | [文档 3](https://shopify.github.io/liquid/)
+阅读·[语法高亮引擎 rouge 的文档](https://github.com/jneen/rouge) |
+阅读·[Markdown 转换器 kramdown 的文档（支持 maruku 语法）](http://kramdown.gettalong.org/) |
+阅读·[Markdown 转换器 maruku 的文档（支持 TOC 语法）](http://maruku.rubyforge.org/maruku.html) |
