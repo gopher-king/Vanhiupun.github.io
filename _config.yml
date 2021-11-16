@@ -53,8 +53,8 @@ header_pages:
   - about.md
 
 # Google Analytics
-google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会给你一个这样的id
-enableDNT: "false"
+google_analytics: UA-212989441-1    # 你用Google账号去注册一个就会给你一个这样的id
+
 
 plugins:
   - jekyll-feed
