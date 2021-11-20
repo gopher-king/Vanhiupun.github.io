@@ -1,8 +1,10 @@
 ![](/assets/images/readme/1.png)
+[![Github Pages](https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml)
 [![ GitHub ](https://img.shields.io/badge/Github-%E4%BB%93%E5%BA%93-red?style=flat-square&logo=github&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun)
 [![ Blog ](https://img.shields.io/badge/Blog-%E5%8D%9A%E5%AE%A2-red?style=flat-square&logo=Blogger&logoColor=ffffff&color=f3a306)](https://vanhiupun.github.io)
 [![ Gmail ](https://img.shields.io/badge/Gmail-%E9%82%AE%E7%AE%B1-red?style=flat-square&logo=Gmail&logoColor=ffffff&color=f3a306)](mailto:fanxiaobin422@gmail.com)
 [![ MIT ](https://img.shields.io/badge/License-MIT-red?style=flat-square&logo=Mitsubishi&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License)
+
 ---
 
 #### 安装
@@ -99,19 +101,19 @@ disqus:
 google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会给你一个这样的id 将此处替换即可
 enableDNT: true
 ````
----
-#### 贡献
 
+#### 贡献
+---
 非常感谢问题和拉取请求。如果您在我非常乐意向您介绍如何创建拉取请求之前从未为开源项目做出过贡献。
 
 您可以首先[打开一个问题](https://github.com/vanhiupun/Vanhiupun.github.io/issues/new)，描述您要解决的问题，我们将从那里开始。
 
----
 
 #### 致谢
+---
 这个模板是从 [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat) Fork的, 感谢这个作者。
 
----
 
 #### License
+---
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](./License)。
