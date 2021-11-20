@@ -4,12 +4,22 @@ title: Vanhiupun blog
 email: fanxiaobin422@gamil.com
 author: Vanhiupun
 
+#版权设置
+#您可以使用任何 html 代码，目前以下占位符可用：
+#当前年份：{currentYear}
+#author: {author}（值与site.author相同）
+#版权：(c) - ©
+#copyleft: (裂口)
+#录音版权：(p) - ℗
+#
+#例如：
+#    "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
+#    “版权所有 © 2017-2021 Foobar”
+#
 copyright: "著作权 (cleft) {currentYear} {author}"
 
-description: >- # 这意味着在“baseurl:”之前忽略换行符
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >- #这意味着在“baseurl:”之前忽略换行符
+  Vanhiupun blog fanxiaobin422@gamil.com 
 
 baseurl: "" # 您网站的子路径，例如 /blog
 url: "" # 您站点的基本主机名和协议，例如 e.g. http://example.com
@@ -28,11 +38,18 @@ kramdown:
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   hard_wrap:      false
-  footnote_nr:    1
 
 # Disqus 评论
 disqus:
   shortname: "vanhiupun"
+
+# Gitment 评论
+# gitment：
+#   用户名：“你的 GitHub 用户名”
+#    repo: "存储评论的仓库"
+#    client_id: "您的客户 ID"
+#    client_secret: "你的客户机密"
+#    redirect_uri: "Your redirect url" # 如果你使用自定义域名
 
 # 摘录大小设置
 excerpt_size: 250
@@ -56,6 +73,39 @@ header_pages:
 google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会给你一个这样的id
 enableDNT: true
 
+#如果要改变内容宽度，可以设置为其他值
+content_width: "920px"
+
+#如果你想改变网站语言，你可以设置 lang 选项
+lang: "en" # 默认语言为 en
+
+#可以选择主题颜色
+#默认主题颜色如下：
+# coolblack: #090a0b
+# spacegrey: #353535
+# snowwhite: #ffffff
+#
+# theme_color: snowwhite
+#
+# 自定义颜色如下:
+# theme_color: "#882250"
+
+#您可以选择品牌颜色
+#默认品牌颜色如下：
+# orangered: #ff5100
+# greatgold: #f2cb05
+# greenblue: #389092
+#
+# brand_color: orangered
+#
+#自定义颜色如下：
+# brand_color： "＃1a8e42"
+
+#如果你想要更多的调试日志，你可以设置为true
+#调试：false
+
+#如果你不想要透明的header，你可以设置false
+# header_transparent: true
 
 plugins:
   - jekyll-feed
