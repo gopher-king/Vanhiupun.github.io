@@ -123,4 +123,4 @@ enableDNT: true
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](./License)。
 
 #### 赞助
-<img style="display:inline-block" src="/img/alipay.JPG" width = "40%"><img style="display:inline-block" src="/img/WeChat.JPG" width = "40%">
+<img src="./assets/images/img/zz.png">
