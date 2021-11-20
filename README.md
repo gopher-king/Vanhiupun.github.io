@@ -5,6 +5,10 @@
 [![ Gmail ](https://img.shields.io/badge/Gmail-%E9%82%AE%E7%AE%B1-red?style=flat-square&logo=Gmail&logoColor=ffffff&color=f3a306)](mailto:fanxiaobin422@gmail.com)
 [![ MIT ](https://img.shields.io/badge/License-MIT-red?style=flat-square&logo=Mitsubishi&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License)
 
+
+#### 详细说明
+[制作和我一样的Jekyll博客](https://vanhiupun.github.io/jekyll/2021/11/20/制作和我一样的Jekyll博客.html)
+
 #### 安装
 
 ```git
