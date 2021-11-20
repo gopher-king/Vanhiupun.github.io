@@ -10,7 +10,7 @@ banner:
   min_height: "50vh"
   heading_style: "font-size: 4.25em; font-weight: bold; "
   subheading_style: "color: gold"
-tags: [Github, DNS, Hosts]
+tags: [Github, DNS, Hosts, 技巧]
 ---
 
 #### 前言
