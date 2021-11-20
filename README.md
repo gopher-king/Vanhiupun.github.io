@@ -1,9 +1,9 @@
 ![](/assets/images/readme/1.png)
 [![Github Pages](https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml)
-[![ GitHub ](https://img.shields.io/badge/Github-%E4%BB%93%E5%BA%93-red?style=flat-square&logo=github&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun)
-[![ Blog ](https://img.shields.io/badge/Blog-%E5%8D%9A%E5%AE%A2-red?style=flat-square&logo=Blogger&logoColor=ffffff&color=f3a306)](https://vanhiupun.github.io)
-[![ Gmail ](https://img.shields.io/badge/Gmail-%E9%82%AE%E7%AE%B1-red?style=flat-square&logo=Gmail&logoColor=ffffff&color=f3a306)](mailto:fanxiaobin422@gmail.com)
-[![ MIT ](https://img.shields.io/badge/License-MIT-red?style=flat-square&logo=Mitsubishi&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License)
+[![ GitHub ](https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff)](https://github.com/vanhiupun)
+[![ Blog ](https://img.shields.io/badge/Github%20Page-222222?style=flat-square&logo=github&logoColor=ffffff)](https://vanhiupun.github.io)
+[![ Gmail ](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=ffffff)](mailto:fanxiaobin422@gmail.com)
+[![ MIT ](https://img.shields.io/badge/License%20MIT-EC9430?style=flat-square&logo=Mitsubishi&logoColor=ffffff)](https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License)
 
 
 #### 详细说明
