@@ -77,7 +77,7 @@ enableDNT: true
 content_width: "920px"
 
 #如果你想改变网站语言，你可以设置 lang 选项
-lang: "en" # 默认语言为 en
+#lang: "en" # 默认语言为 en
 
 #可以选择主题颜色
 #默认主题颜色如下：
