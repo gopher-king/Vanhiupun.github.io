@@ -28,28 +28,24 @@ favicon: "./favicon.png" # 您网站的图标
 yat:
   date_format: "%b %d, %Y"
 
+# Build settings
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  hard_wrap:      false
+
 
 # Disqus 评论
-disqus:
-  shortname: "vanhiupun"
+#disqus:
+#  shortname: "vanhiupun"
 
 # Gitment 评论
-# gitment：
-#   用户名：“你的 GitHub 用户名”
-#    repo: "存储评论的仓库"
-#    client_id: "您的客户 ID"
-#    client_secret: "你的客户机密"
-#    redirect_uri: "Your redirect url" # 如果你使用自定义域名
+gitment:
+  username: "vanhiupun"
+  repo: "Vanhiupun.github.io"
+  client_id: "b31fd4ac7152362a7971"
+  client_secret: "0206be5730c08a2839e0365f8e896dcf6b99a66a"
+  redirect_uri: "" #如果你使用自定义域名
 
 # 摘录大小设置
 excerpt_size: 250
