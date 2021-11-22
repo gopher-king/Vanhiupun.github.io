@@ -36,15 +36,8 @@ kramdown:
   syntax_highlighter: rouge
   
 # Disqus 评论
-
-#disqus:
-# shortname: "vanhiupun"
-comments :
-  provider : disqus
-  disqus :
-    shortname: "vanhiupun"
-  
-  
+disqus:
+ shortname: "vanhiupun"
 
 # Gitment 评论
 #gitment:
