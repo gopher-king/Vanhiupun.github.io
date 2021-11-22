@@ -1,7 +1,7 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
+  <div align="center" class="wrapper">
     <div class="site-footer-inner">
         {%- assign currentYear = 'now' | date: "%Y" -%}
         {%- assign copyright = site.copyright
@@ -12,9 +12,10 @@
             | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
         -%}
       <div>{{ copyright }}</div>
+      <div class="footer-col rss-subscribe">通过<a href="{{ "/feed.xml" | relative_url }}"> RSS </a>订阅</div>   
       <div> 由 <a title="Jekyll is a simple, blog-aware, static site
       generator." href="http://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
-      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>提供支持</div>      
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>提供支持</div>    
       <a href="https://github.com/vanhiupun">
         <img src="https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff"
       alt="Github" />
@@ -34,7 +35,7 @@
         <img src="https://img.shields.io/badge/License%20MIT-EC9430?style=flat-square&logo=Mitsubishi&logoColor=ffffff" 
       alt="MIT" />
       </a>
-      
+    
     </div>
   </div>
 </footer>
