@@ -39,6 +39,16 @@ kramdown:
 disqus:
  shortname: "vanhiupun"
 
+# admin 页面 
+# jekyll_admin:
+#   hidden_links:
+#     - posts
+#     - pages
+#     - staticfiles
+#     - datafiles
+#     - configuration
+#   homepage: "pages"
+
 # Gitment 评论
 #gitment:
 #  username: "" # github用户名
@@ -101,7 +111,7 @@ content_width: "920px"
 #调试：false
 
 #如果你不想要透明的header，你可以设置false
-# header_transparent: true
+#header_transparent: true
 
 plugins:
   - jekyll-feed
