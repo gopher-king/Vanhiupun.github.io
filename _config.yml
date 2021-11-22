@@ -37,8 +37,12 @@ kramdown:
   
 # Disqus 评论
 
-disqus:
- shortname: "vanhiupun"
+#disqus:
+# shortname: "vanhiupun"
+comments :
+  provider : disqus
+  disqus :
+    shortname: "vanhiupun"
   
   
 
