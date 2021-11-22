@@ -44,7 +44,7 @@ gitment:
   username: "vanhiupun" # github用户名
   repo: "Vanhiupun.github.io" # 仓库名称
   client_id: "b31fd4ac7152362a7971" # Client ID
-  client_secret: "0206be5730c08a2839e0365f8e896dcf6b99a66a" # Client secrets
+  client_secret: "d8d01205abdf2f23da72eda8e1f6d1e882fc6904" # Client secrets
   redirect_uri: "" # 如果你使用自定义域名
   
 
