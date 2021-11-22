@@ -36,8 +36,17 @@ kramdown:
   syntax_highlighter: rouge
   
 # Disqus 评论
-disqus:
-  shortname: "vanhiupun"
+#disqus:
+#  shortname: "vanhiupun"
+  
+# Gitment 评论
+gitment:
+  username: "vanhiupun" # github用户名
+  repo: "Vanhiupun.github.io" # 仓库名称
+  client_id: "b31fd4ac7152362a7971" # Client ID
+  client_secret: "0206be5730c08a2839e0365f8e896dcf6b99a66a" # Client secrets
+  redirect_uri: "" # 如果你使用自定义域名
+  
 
 # Gitment 评论
 #gitment:
