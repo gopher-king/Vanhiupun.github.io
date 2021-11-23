@@ -1,9 +1,29 @@
-![](/assets/images/readme/1.png)
-[![Github Pages](https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306)](https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml)
-[![ GitHub ](https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff)](https://github.com/vanhiupun)
-[![ Blog ](https://img.shields.io/badge/Github%20Page-222222?style=flat-square&logo=github&logoColor=ffffff)](https://vanhiupun.github.io)
-[![ Gmail ](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=ffffff)](mailto:fanxiaobin422@gmail.com)
-[![ MIT ](https://img.shields.io/badge/License%20MIT-EC9430?style=flat-square&logo=Mitsubishi&logoColor=ffffff)](https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License)
+<div align="center">
+
+<p><img src="/assets/images/readme/1.png"></p>
+
+<a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml">
+    <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306" />
+</a>
+
+<a href="https://github.com/vanhiupun">
+    <img src="https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff" />
+</a>
+
+<a href="https://vanhiupun.github.io">
+    <img src="https://img.shields.io/badge/Github%20Page-222222?style=flat-square&logo=github&logoColor=ffffff" />
+</a>
+
+<a href="mailto:fanxiaobin422@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=ffffff" />
+</a>
+
+<a href="https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License">
+    <img src="https://img.shields.io/badge/License%20MIT-EC9430?style=flat-square&logo=Mitsubishi&logoColor=ffffff" />
+</a>
+
+</div>
+
 
 
 #### 详细说明
@@ -40,11 +60,11 @@ email: fanxiaobin422@gamil.com # 你的邮箱
 
 author: Vanhiupun # 你的名字
 
-baseurl: "" # 网站的子路径，例如 /blog
+baseurl: "" # 网站的子路径，e.g. /blog
 
-url: "" # 站点的基本主机名和协议，例如 e.g. http://example.com
+url: "" # 站点的基本主机名和协议，e.g. http://example.com
 
-favicon: "./favicon.png" # 网站的图标
+favicon: "/favicon.png" # 网站的图标 使用绝对路径e.g. /favicon.png，不推荐使用./favicon.png
 
 # 分页设置
 paginate: 5 #在主页显示5篇文章
