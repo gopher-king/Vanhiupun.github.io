@@ -83,7 +83,7 @@ enableDNT: true
 content_width: "920px"
 
 # Translate languges
-lang: []
+# translate_langs: []
 
 #如果你想改变网站语言，你可以设置 lang 选项
 #lang: "en" # 默认语言为 en
