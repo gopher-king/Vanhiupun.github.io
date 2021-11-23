@@ -1,6 +1,11 @@
 <div align="center">
 
-<p><img src="/assets/images/readme/1.png"></p>
+<p><img src="./assets/images/readme/1.png"  /></p>
+
+---
+<h4 align="center">
+  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
+</h4>
 
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml">
     <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306" />
@@ -23,11 +28,11 @@
 </a>
 
 </div>
+<div align="center">
+  <sub><a href="https://vanhiupun.github.io/jekyll/2021/11/20/制作和我一样的Jekyll博客.html">构建Jekyll博客</a>❤︎
+  </sub>
+</div>
 
-
-
-#### 详细说明
-[制作和我一样的Jekyll博客](https://vanhiupun.github.io/jekyll/2021/11/20/制作和我一样的Jekyll博客.html)
 
 #### 安装
 
