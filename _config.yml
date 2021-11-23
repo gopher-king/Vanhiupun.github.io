@@ -82,6 +82,9 @@ enableDNT: true
 #如果要改变内容宽度，可以设置为其他值
 content_width: "920px"
 
+#翻译语言
+translate_langs : []
+
 #如果你想改变网站语言，你可以设置 lang 选项
 #lang: "en" # 默认语言为 en
 
