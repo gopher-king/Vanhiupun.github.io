@@ -1,19 +1,14 @@
 # remote_theme : "jeffreytse/jekyll-theme-yat"
 
-title: Vanhiupun blog
+title: Vanhiupun's Awesome Site
 email: fanxiaobin422@gamil.com
 author: Vanhiupun
-tagline: 范晓彬的博客 | Vanhiupun's Awesome Site
 description: >- #这意味着在“baseurl:”之前忽略换行符
   Vanhiupun blog fanxiaobin422@gamil.com 
 baseurl: "" # 您网站的子路径，例如 /blog
 url: "" # 您站点的基本主机名和协议，例如 e.g. http://example.com
 favicon: "/favicon.png" # 您网站的图标
 
-social:
-  name: Vanhiupun
-  links:
-    - https://github.com/vanhiupun
 
 #版权设置
 #您可以使用任何 html 代码，目前以下占位符可用：
@@ -22,13 +17,10 @@ social:
 #版权：(c) - ©
 #copyleft: (裂口)
 #录音版权：(p) - ℗
-#
 #例如：
 #    "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #    “版权所有 © 2017-2021 Foobar”
-#
 copyright: "著作权 (cleft) {currentYear} {author}"
-
 
 yat:
   date_format: "%b %d, %Y"
@@ -44,23 +36,6 @@ kramdown:
 disqus:
  shortname: "vanhiupun"
 
-# admin 页面 
-# jekyll_admin:
-#   hidden_links:
-#     - posts
-#     - pages
-#     - staticfiles
-#     - datafiles
-#     - configuration
-#   homepage: "pages"
-
-# Gitment 评论
-#gitment:
-#  username: "" # github用户名
-#  repo: "" # 仓库名称
-#  client_id: "" # Client ID
-#  client_secret: "" # Client secrets
-#  redirect_uri: "" # 如果你使用自定义域名
 
 # 摘录大小设置
 excerpt_size: 250
@@ -86,6 +61,24 @@ enableDNT: true
 
 #如果要改变内容宽度，可以设置为其他值
 content_width: "920px"
+
+# admin 页面 
+# jekyll_admin:
+#   hidden_links:
+#     - posts
+#     - pages
+#     - staticfiles
+#     - datafiles
+#     - configuration
+#   homepage: "pages"
+
+# Gitment 评论
+#gitment:
+#  username: "" # github用户名
+#  repo: "" # 仓库名称
+#  client_id: "" # Client ID
+#  client_secret: "" # Client secrets
+#  redirect_uri: "" # 如果你使用自定义域名
 
 # Translate languges
 # translate_langs: []
