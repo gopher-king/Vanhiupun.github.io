@@ -11,12 +11,12 @@ favicon: "/favicon.png" # 您网站的图标
 
 
 #版权设置
-#您可以使用任何 html 代码，目前以下占位符可用：
-#当前年份：{currentYear}
-#author: {author}（值与site.author相同）
-#版权：(c) - ©
-#copyleft: (裂口)
-#录音版权：(p) - ℗
+#*您可以使用任何 html 代码，目前以下占位符可用：
+#*当前年份：{currentYear}
+#*作者: {author}（值与site.author相同）
+#*版权：(c) - ©
+#*公共版权: (cleft)
+#*录音版权：(p) - ℗
 #例如：
 #    "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #    “版权所有 © 2017-2021 Foobar”
