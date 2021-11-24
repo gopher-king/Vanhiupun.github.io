@@ -2,9 +2,9 @@
 
 <p><img src="./assets/images/readme/1.png"  /></p>
 
-<h4 align="center">
+<h3 align="center">
   <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
-</h4>
+</h3>
 
 
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml">
@@ -42,17 +42,16 @@ git clone git@github.com:vanhiupun/Vanhiupun.github.io.git
 
 #### 设置环境
 
-```git
-cd Vanhiupun.github.io
-bundle install
-bundle exec jekyll serve
-```
+1.您将需要[Ruby](https://www.ruby-lang.org/zh_cn/)和[Bundler](https://bundler.io/)才能使用[Jekyll](https://www.jekyll.com.cn/)。遵循使用 [Jekyll 和 Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)来满足环境要求。
 
-要设置您的环境来开发此主题，请运行`bundle install`.
+2.要设置您的环境来开发此主题，请运行`bundle install`.
 
-您的主题设置就像一个普通的`Jekyll`站点一样！要测试您的主题，请运行`bundle exec jekyll serve`并打开您的浏览器[http://localhost:4000](http://localhost:4000)。这将使用您的主题启动 Jekyll 服务器。像往常一样添加页面、文档、数据等来测试您的主题内容。当您对主题和内容进行修改时，您的站点将重新生成，刷新后您应该会看到浏览器中的更改，就像往常一样。
+3.要测试您的主题，请运行`bundle exec jekyll serve`并打开您的浏览器[http://localhost:4000](http://localhost:4000)
+这将使用您的主题启动 Jekyll 服务器。
+像往常一样添加页面、文档、数据等来测试您的主题内容。当您对主题和内容进行修改时，您的站点将重新生成，刷新后您应该会看到浏览器中的更改
 
-当你的主题被释放，只有在文件中`_data`，`_layouts`，`_includes`，`_sass`和`assets`使用 Git 跟踪将被捆绑在一起。要将自定义目录添加到您的主题宝石，请相应地编辑正则表达式`jekyll-theme-yat.gemspec`。
+当你的主题被释放，只有在文件中`_data`，`_layouts`，`_includes`，`_sass`和`assets`使用 Git 跟踪将被捆绑在一起。
+要将自定义目录添加到您的主题宝石，请相应地编辑正则表达式`jekyll-theme-yat.gemspec`。
 
 #### 开始
 
@@ -134,22 +133,21 @@ disqus:
 ```bash
 # Google Analytics
 google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会给你一个这样的id 将此处替换即可
-enableDNT: true
 ```
 
-#### 贡献
+## 贡献
 
-非常感谢问题和拉取请求。如果您在我非常乐意向您介绍如何创建拉取请求之前从未为开源项目做出过贡献。
+非常感谢问题和拉取请求。如果您在之前从未为开源项目做出过贡献，我非常乐意向您介绍如何创建拉取请求。
 
 您可以首先[打开一个问题](https://github.com/vanhiupun/Vanhiupun.github.io/issues/new)，描述您要解决的问题，我们将从那里开始。
 
-#### 致谢
+## 致谢
 
 这个模板是从 [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat) Fork 的, 感谢这个作者。
 
-#### License
+## License
 
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](./License)。
 
-#### 赞助
+## 赞助
 <img src="./assets/images/img/zz.png">
