@@ -59,8 +59,8 @@ enableDNT: true
 #如果要改变内容宽度，可以设置为其他值
 content_width: "920px"
 
-# 代码徽章设置
-# 您可以启用或禁用代码徽章等
+# 文章图标设置
+# 您可以启用或禁用文章图标等
 code_badge:
   enabled: "true"
   color: "#fff"
