@@ -21,7 +21,7 @@ favicon: "/favicon.png" # 您网站的图标
 #    "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #    “版权所有 © 2017-2021 Foobar”
 
-copyright: "Copyright (c) 2017-{currentYear}<a href="https://vanhiupun.github.io/">{author}</a>"
+copyright: "Copyright (c) 2017-{currentYear} {author}"
 
 yat:
   date_format: "%b %d, %Y"
