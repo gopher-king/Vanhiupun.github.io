@@ -52,7 +52,6 @@ header_pages:
   - categories.html
   - tags.html
   - about.md
-  - https://github.com/jeffreytse/jekyll-theme-yat
 
 # Google Analytics
 google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会给你一个这样的id
