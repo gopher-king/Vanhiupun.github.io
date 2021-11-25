@@ -35,8 +35,14 @@ kramdown:
 disqus:
  shortname: "vanhiupun"
 
+# code_badge:
+#  enabled: "true"
+#  color: "#fff"
+#  background_color: "#ff4e00"
+#  text_transform: "capitalize"  # ("uppercase", "lowercase", "capitalize")
+
 # 摘录大小设置
-# excerpt_size: 250
+ excerpt_size: 250
 
 # 如果要生成网站站点地图，可以设置为true
 sitemap: true
