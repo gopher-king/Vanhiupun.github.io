@@ -12,20 +12,34 @@
 </a>
 
 <a href="https://github.com/vanhiupun">
-    <img src="https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff" />
-</a>
-
+    <img src="https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff"
+     alt="Github" />
+</a> 
+      
 <a href="https://vanhiupun.github.io">
-    <img src="https://img.shields.io/badge/Github%20Page-222222?style=flat-square&logo=github&logoColor=ffffff" />
-</a>
-
+    <img src="https://img.shields.io/badge/Github%20Page-222222?style=flat-square&logo=github&logoColor=ffffff" 
+     alt="Blog" />
+</a> 
+      
 <a href="mailto:fanxiaobin422@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=ffffff" />
-</a>
-
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=ffffff" 
+     alt="Gmail" />
+</a> 
+      
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License">
-    <img src="https://img.shields.io/badge/License%20MIT-EC9430?style=flat-square&logo=Mitsubishi&logoColor=ffffff" />
+    <img src="https://img.shields.io/badge/License%20MIT-f2cb05?style=flat-square&logo=Mitsubishi&logoColor=222222" 
+     alt="MIT" />
 </a>
+      
+<a href="http://jekyllthemes.org/">
+    <img src="https://img.shields.io/badge/Jekyll%20Themes-f2cb05?style=flat-square&logo=Jekyll&logoColor=222222" 
+     alt="jekyll-themes" />
+</a> 
+
+<a href="https://github.com/jeffreytse/jekyll-theme-yat">
+    <img src="https://img.shields.io/badge/Jekyll%C2%B7Theme%C2%B7Yat-f2cb05?style=flat-square&logo=github&logoColor=181717" 
+     alt="Jekyll-yat" />
+</a> 
 
 </div>
 <div align="center">
