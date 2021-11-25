@@ -1,12 +1,12 @@
-title: Vanhiupun's Awesome Site
 email: fanxiaobin422@gamil.com
 author: Vanhiupun
+title: Vanhiupun's Awesome Site
 description: >- #这意味着在“baseurl:”之前忽略换行符
-  jekyll-theme github-pages Vanhiupun-blog fanxiaobin422@gamil.com Vanhiupun's Awesome Site
-  Pages+Jekyll 
+  我通过创建存储库,创建了这个漂亮的 Jekyll 博客。 你也可以 fork 让它成为你的。 Jekyll 是一个简单的博客生成器。 社区在增长，插件的数量也在增长。 我已将所有博客移至 Jekyll！
 baseurl: "" # 您网站的子路径，例如 /blog
 url: "" # 您站点的基本主机名和协议，例如 e.g. http://example.com
 favicon: "/favicon.png" # 您网站的图标
+permalink: date
 
 # 版权设置
 # * 您可以使用任何 html 代码，目前以下占位符可用：
