@@ -52,7 +52,7 @@ header_pages:
   - categories.html
   - tags.html
   - about.md
-  - <a href="https://github.com/jeffreytse/jekyll-theme-yat"><img src="https://img.shields.io/badge/Jekyll%C2%B7Theme%C2%B7Yat-f2cb05?style=flat-square&logo=github&logoColor=181717" alt="Jekyll-yat" />
+  - <a href="https://github.com/jeffreytse/jekyll-theme-yat"><img src="https://img.shields.io/badge/Jekyll%C2%B7Theme%C2%B7Yat-f2cb05?style=flat-square&logo=github&logoColor=181717" alt="Jekyll-yat" /></a>
 
 # Google Analytics
 google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会给你一个这样的id
