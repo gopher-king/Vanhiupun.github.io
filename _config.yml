@@ -35,12 +35,6 @@ kramdown:
 disqus:
  shortname: "vanhiupun"
 
-# code_badge:
-#  enabled: "true"
-#  color: "#fff"
-#  background_color: "#ff4e00"
-#  text_transform: "capitalize"  # ("uppercase", "lowercase", "capitalize")
-
 # 摘录大小设置
  excerpt_size: 250
 
@@ -52,7 +46,7 @@ paginate: 7
 
 # 如果您只想链接标题中的特定页面，请取消注释
 # 按顺序添加页面的路径
-header_pages:
+# header_pages:
   - index.html
   - archives.html
   - categories.html
