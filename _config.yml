@@ -16,10 +16,10 @@ permalink: date
 # * 公共版权: (cleft)
 # * 录音版权：(p) - ℗
 #例如：
-#    "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
+#    "Copyright (c) 2017-{currentYear} <a href=https://example.com>{author}</a>"
 #    “版权所有 © 2017-2021 Foobar”
 
-copyright: "Copyright (c) 2017-{currentYear} {author}"
+copyright: "Copyright (c) 2017-{currentYear} <a href=https://github.com/vanhiupun/>{author}</a>"
 
 yat:
   date_format: "%b %d, %Y"
@@ -118,7 +118,7 @@ theme_color: snowwhite
 debug: true
 
 #如果你不想要透明的header，你可以设置false
-header_transparent: true
+header_transparent: false
 
 # remote_theme : "jeffreytse/jekyll-theme-yat"
 
