@@ -11,7 +11,7 @@
 
  <header class="site-header {{ header_transparent_class }}" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper">    
     <div class="site-header-inner">
       {%- assign default_paths = site.pages | where: "dir", "/" | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -49,6 +49,12 @@
                   {%- include extensions/google-translate.html -%}
               </span>
             {%- endif -%}
+            <!-- github icon -->
+            <a align="center" rel="github" href="https://github.com/vanhiupun/" target="_blank">
+              <img src="/assets/images/img/229062.png" width=45px
+             onerror="this.style.display='none'">
+             </a>
+            <!-- github icon -->
           </div>
         </nav>
       {%- endif -%}

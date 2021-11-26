@@ -58,7 +58,7 @@ google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会�
 enableDNT: true
 
 #如果要改变内容宽度，可以设置为其他值
-content_width: "920px"
+content_width: "1080px"
 
 # 文章图标设置
 # 您可以启用或禁用文章图标等
@@ -118,7 +118,7 @@ theme_color: snowwhite
 debug: true
 
 #如果你不想要透明的header，你可以设置false
-header_transparent: false
+header_transparent: true
 
 # remote_theme : "jeffreytse/jekyll-theme-yat"
 
