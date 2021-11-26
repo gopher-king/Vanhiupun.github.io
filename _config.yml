@@ -47,11 +47,11 @@ paginate: 7
 # 如果您只想链接标题中的特定页面，请取消注释
 # 按顺序添加页面的路径
 # header_pages:
-  - index.html
-  - archives.html
-  - categories.html
+#  - index.html
+#  - archives.html
+#  - categories.html
 #  - tags.html
-  - about.md
+#  - about.md
 
 # Google Analytics
 google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会给你一个这样的id
