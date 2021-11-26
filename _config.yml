@@ -118,7 +118,7 @@ theme_color: snowwhite
 # debug：false
 
 #如果你不想要透明的header，你可以设置false
-#header_transparent: true
+header_transparent: false
 
 # remote_theme : "jeffreytse/jekyll-theme-yat"
 
