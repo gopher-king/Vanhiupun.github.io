@@ -7,43 +7,43 @@
 </h3>
 
 
-<a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml">
+<a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml" target="_blank">
     <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306" />
 </a>
 
-<a href="https://github.com/vanhiupun">
+<a href="https://github.com/vanhiupun" target="_blank">
     <img src="https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff"
      alt="Github" />
 </a> 
       
-<a href="https://vanhiupun.github.io">
+<a href="https://vanhiupun.github.io" target="_blank">
     <img src="https://img.shields.io/badge/Github%20Page-222222?style=flat-square&logo=github&logoColor=ffffff" 
      alt="Blog" />
 </a> 
       
-<a href="mailto:fanxiaobin422@gmail.com">
+<a href="mailto:fanxiaobin422@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Send%20me%20Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=ffffff" 
      alt="Gmail" />
 </a> 
       
-<a href="https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License">
+<a href="https://github.com/vanhiupun/Vanhiupun.github.io/blob/c0c037532393ee2718892f87b200a0bbe33e7eb9/License" target="_blank">
     <img src="https://img.shields.io/badge/License%20MIT-f2cb05?style=flat-square&logo=Mitsubishi&logoColor=222222" 
      alt="MIT" />
 </a>
       
-<a href="http://jekyllthemes.org/">
+<a href="http://jekyllthemes.org/" target="_blank">
     <img src="https://img.shields.io/badge/Jekyll%20Themes-f2cb05?style=flat-square&logo=Jekyll&logoColor=222222" 
      alt="jekyll-themes" />
 </a> 
 
-<a href="https://github.com/jeffreytse/jekyll-theme-yat">
+<a href="https://github.com/jeffreytse/jekyll-theme-yat" target="_blank">
     <img src="https://img.shields.io/badge/Jekyll%C2%B7Theme%C2%B7Yat-f2cb05?style=flat-square&logo=github&logoColor=181717" 
      alt="Jekyll-yat" />
 </a> 
 
 </div>
 <div align="center">
-  <sub><a href="https://vanhiupun.github.io/jekyll/2021/11/20/制作和我一样的Jekyll博客.html">构建Jekyll博客</a>❤︎
+  <sub><a href="https://vanhiupun.github.io/jekyll/2021/11/20/制作和我一样的Jekyll博客.html" target="_blank">构建Jekyll博客</a>❤︎
   </sub>
 </div>
 
@@ -164,4 +164,4 @@ google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会�
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](./License)。
 
 ## 赞助
-<img src="./assets/images/img/zz.png">
+<img src="./assets/images/img/zz.png" >
