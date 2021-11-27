@@ -16,6 +16,9 @@
       {%- assign default_paths = site.pages | where: "dir", "/" | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
 
+      <ul class="nav navbar-nav"><li class="active"><a href="/" id="home">Home</a></li><li><a href="/get-started/overview/" id="guides">Guides</a></li><li><a href="/desktop/" id="manuals">Manuals</a></li><li><a href="/reference/" id="reference">Reference</a></li><li><a href="https://www.docker.com/blog/">Articles</a></li>
+        </ul>
+      
       <span class="site-brand">
         {%- include views/site-brand.html -%}
       </span>
