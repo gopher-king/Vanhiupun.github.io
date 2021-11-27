@@ -19,7 +19,7 @@ permalink: date
 #    "Copyright (c) 2017-{currentYear} <a href=https://example.com>{author}</a>"
 #    “版权所有 © 2017-2021 Foobar”
 
-copyright: "Copyright (c) 2017-{currentYear} <a href=https://github.com/vanhiupun/>{author}</a>"
+copyright: "Copyright (c) 2017-{currentYear} <a href='https://github.com/vanhiupun/' target='_blank'>{author}</a>"
 
 yat:
   date_format: "%b %d, %Y"
