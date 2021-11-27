@@ -82,6 +82,53 @@ html {
     }
   }
 
+
+            * {
+            #清除默认的内外边距
+                margin: 0;
+                padding: 0;
+            }
+            nav{
+            #nav标签样式设计
+                width: 100%;#宽度100%
+                height: 100px;#高度100像素
+                background: #494A5F;#背景颜色
+                font-weight: bold;#加粗
+                font-size: 18px;#字体大小
+                display: flex;#使用弹性布局
+                justify-content: center;#居中显示
+            }
+            ul{
+                #列表样式
+                width: 70%;
+                height: 100px;
+                display: flex;#弹性盒子布局
+                justify-content: space-around;#列表项居中平分
+            }
+            ul li{
+                #列表项样式
+                height: 100px; #高度和行高都是100像素就会水平居中了
+                line-height: 100px;
+                list-style: none; #去除项目符号
+                text-decoration: none;#去除下划线
+            }
+            a{
+                #a标签样式设置
+                display: block;#转换为块元素
+                text-decoration: none;#去除下划线
+                height: 90px; #高度为90像素，留下一点空间给下划线
+            }
+            a:link,a:visited{
+                #链接属性，点击前和点击后样式设计一样
+                color: #D3D3D3;
+            }
+            a:hover{
+                #鼠标放在a标签上面显示的样式，这里鼠标放上改变字体颜色，并出现下划线
+                color: white;#颜色白色
+                border-bottom: 2px solid white; #下划线
+            }
+        </style>  
+  
   a {
     text-decoration: none;
   }
