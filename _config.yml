@@ -50,7 +50,7 @@ header_pages:
   - index.html
   - archives.html
   - categories.html
-#  - tags.html
+  - tags.html
   - about.md
 
 # Google Analytics
