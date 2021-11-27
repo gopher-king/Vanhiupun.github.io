@@ -21,53 +21,7 @@
       </span>
       
       {%- if page_paths -%}
-  
-    * {
-    /* #清除默认的内外边距 */
-        margin: 0;
-        padding: 0;
-    }
-    nav{
-    /* #nav标签样式设计 */
-        width: 100%;
-        height: 100px;
-        background: #494A5F;
-        font-weight: bold;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-    }
-    ul{
-        /* #列表样式 */
-        width: 70%;
-        height: 100px;
-        display: flex;
-        justify-content: space-around;
-    }
-    ul li{
-        /* #列表项样式 */
-        height: 100px; 
-        line-height: 100px;
-        list-style: none; 
-        text-decoration: none;
-    }
-    a{
-        /* #a标签样式设置 */
-        display: block;
-        text-decoration: none;
-        height: 90px;
-    }
-    a:link,a:visited{
-        /* #链接属性，点击前和点击后样式设计一样 */
-        color: #D3D3D3;
-    }
-    a:hover{
-        /* #鼠标放在a标签上面显示的样式，这里鼠标放上改变字体颜色，并出现下划线 */
-        color: white;
-        border-bottom: 2px solid white; 
-    }
-<!-- 导航栏 -->
-  
+
         <nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
