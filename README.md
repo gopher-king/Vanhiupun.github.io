@@ -11,6 +11,10 @@
     <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306" />
 </a>
 
+<a href="https://rubygems.org/gems/jekyll-theme-yat" target="_blank">
+    <img src="https://img.shields.io/gem/v/jekyll-theme-yat?style=flat-square"     alt="jekyll-theme-yat" />
+</a> 
+
 <a href="https://github.com/vanhiupun" target="_blank">
     <img src="https://img.shields.io/badge/Github%20Repository-222222?style=flat-square&logo=github&logoColor=ffffff"
      alt="Github" />
