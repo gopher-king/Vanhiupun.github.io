@@ -47,6 +47,11 @@
   </sub>
 </div>
 
+</div>
+<div align="center">
+  <sub><a href="https://vanhiupun.github.io/" target="_blank">演示站点</a>
+  </sub>
+</div>
 
 #### 安装
 
@@ -165,3 +170,11 @@ google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会�
 
 ## 赞助
 <img src="./assets/images/img/zz.png" >
+
+## 相关资源
+
+[演示站点](https://vanhiupun.github.io)
+
+[构建Jekyll博客](https://vanhiupun.github.io/jekyll/2021/11/20/制作和我一样的Jekyll博客.html)
+
+[Jekyll详细搭建过程](https://vanhiupun.github.io/jekyll/2021/11/16/一步一步创建Jekyll主题.html)
