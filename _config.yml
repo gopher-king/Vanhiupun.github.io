@@ -130,3 +130,4 @@ plugins:
   - jekyll-spaceship
   - jekyll-admin
   - jemoji
+  - webrick
