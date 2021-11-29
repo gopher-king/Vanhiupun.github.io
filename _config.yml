@@ -26,10 +26,10 @@ yat:
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  #syntax_highlighter: rouge
   
 # Disqus 评论
 disqus:
@@ -129,6 +129,4 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
   - jekyll-admin
-  - rouge
   - jemoji
-  - kramdown
