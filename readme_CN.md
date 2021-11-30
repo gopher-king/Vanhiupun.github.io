@@ -10,6 +10,10 @@
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml" target="_blank">
     <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306" />
 </a>
+  
+<a href="https://github.com/vanhiupun/Vanhiupun.github.io" target="_blank">
+  <img src="https://www.codefactor.io/repository/github/vanhiupun/vanhiupun.github.io/badge" alt="CodeFactor" />
+</a>
 
 <a href="https://rubygems.org/gems/jekyll-theme-yat" target="_blank">
     <img src="https://img.shields.io/gem/v/jekyll-theme-yat?style=flat-square"     alt="jekyll-theme-yat" />
