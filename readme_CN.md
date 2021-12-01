@@ -12,7 +12,7 @@
 </a>
   
 <a href="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/circleci-project-setup" target="_blank">
-  <img src="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master.svg?style=svg">
+  <img src="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master.svg?style=shield">
 </a> 
   
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io" target="_blank">
