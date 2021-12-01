@@ -11,7 +11,7 @@
     <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306" />
 </a>
   
-<a href="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/circleci-project-setup" target="_blank">
+<a href="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master" target="_blank">
   <img src="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master.svg?style=shield">
 </a> 
   
