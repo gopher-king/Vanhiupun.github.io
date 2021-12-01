@@ -164,13 +164,15 @@ google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会�
 
 ## 贡献
 
-非常感谢问题和拉取请求。如果您在之前从未为开源项目做出过贡献，我非常乐意向您介绍如何创建拉取请求。
-
-您可以首先[打开一个问题](https://github.com/vanhiupun/Vanhiupun.github.io/issues/new)，描述您要解决的问题，我们将从那里开始。
-
+如果你对这个项目感兴趣，你可以在以下任何一个方面做出贡献：
+- 为这个项目加星
+- 您可以[打开一个问题](https://github.com/vanhiupun/Vanhiupun.github.io/issues/new)，描述您要解决的问题，我们将从那里开始。
+- 使用或测试，报告错误或发送补丁请求。
+- 如果您的英语很好，请帮助我编写文档。
+  
 ## 致谢
 
-这个模板是从 [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat) Fork 的, 感谢这个作者。
+这个模板是从 [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat) Fork 的, 感谢这个作者。:+1:
 
 ## License
 

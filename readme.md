@@ -162,14 +162,16 @@ google_analytics: "UA-212989441-1" # If you register one with your Google accoun
 ```
 
 ## contribute
+If you are interested in this project, you can contribute in any of the following areas:
 
-Thank you very much for the question and pull request. If you have never contributed to an open source project before, I would be happy to show you how to create a pull request.
-
-You can first [open an issue](https://github.com/vanhiupun/Vanhiupun.github.io/issues/new) , describe the issue you want to solve, and we will start from there.
+- Star this project
+- You can [open an issue](https://github.com/vanhiupun/Vanhiupun.github.io/issues/new), if you want to solve the problem, we will start from there.
+- Use tests, report errors, or send requests or requests.
+- If your English is very good, please help me write the document.
 
 ## Thanks
 
-This template is Fork from [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat) , thanks to the author.
+This template is Fork from [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat) , thanks to the author :+1:
 
 ## License
 
