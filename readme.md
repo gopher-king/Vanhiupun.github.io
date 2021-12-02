@@ -8,7 +8,7 @@
 
 
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml" target="_blank">
-    <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg?style=flat-square&logo=github&logoColor=ffffff&color=f3a306" />
+    <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg" />
 </a>
 
 <a href="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master" target="_blank">
