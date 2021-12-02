@@ -41,3 +41,4 @@ _site
 .jekyll-metadata
 .idea
 Gemfile.lock
+.Gemfile.lock.icloud 
