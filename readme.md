@@ -15,6 +15,10 @@
   <img src="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master.svg?style=shield">
 </a> 
  
+<a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/codeql-analysis.yml" target="_blank">
+  <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/codeql-analysis.yml/badge.svg">
+</a> 
+  
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io" target="_blank">
   <img src="https://www.codefactor.io/repository/github/vanhiupun/vanhiupun.github.io/badge" alt="CodeFactor" />
 </a>
