@@ -1,7 +1,7 @@
 <div align="center">
-
-<p><img src="./assets/images/readme/1.png"  /></p>
-
+  
+<p><img src="./assets/images/banners/jekyll.jpg" width=80% height=80%></p>
+  
 <h3 align="center">
   <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
 </h3>
@@ -65,6 +65,13 @@
   </sub>｜<sub><a href="/readme_CN.md" target="_blank">中文文档</a>
   </sub>
 </div>
+
+----
+<div align="center">
+<p><img src="./assets/images/readme/1.png" width=70% height=70% ></p>
+</div>
+
+----
 
 #### Install
 
