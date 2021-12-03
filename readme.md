@@ -186,7 +186,7 @@ This template is Fork from [jeffreytse](https://github.com/jeffreytse/jekyll-the
 Follow the MIT license. For details, please refer to [LICENSE](./License) .
 
 ## Sponsor
-<img src="./assets/images/img/zz.png" >
+<img src="./assets/images/img/zz.png" width=70%>
 
 ## related resources
 
