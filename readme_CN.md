@@ -1,6 +1,6 @@
 <div align="center">
 
-<p><img src="./assets/images/readme/1.png"  /></p>
+<p><img src="./assets/images/banners/jekyll.jpg" ></p>
 
 <h3 align="center">
   <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
@@ -68,6 +68,13 @@
   <sub><a href="https://vanhiupun.github.io/" target="_blank">演示站点</a>
   </sub>
 </div>
+
+----
+<div align="center">
+<p><img src="./assets/images/readme/1.png" width=70% height=70% ></p>
+</div>
+
+----
 
 #### 安装
 
