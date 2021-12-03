@@ -56,7 +56,12 @@
     <img src="https://img.shields.io/badge/Jekyll%C2%B7Theme%C2%B7Yat-f2cb05?style=flat-square&logo=github&logoColor=181717" 
      alt="Jekyll-yat" />
 </a> 
-
+  
+<a href="https://raw.githubusercontent.com/vanhiupun/Vanhiupun.github.io/master/assets/images/img/zz.png" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4335?style=flat-square&logo=GitHub%20Sponsors&logoColor=222222" 
+     alt="/GitHub%20Sponsors" />
+</a> 
+  
 </div>
 <div align="center">
   <sub><a href="https://vanhiupun.github.io/jekyll/2021/11/20/制作和我一样的Jekyll博客.html" target="_blank">构建Jekyll博客</a>❤︎
@@ -192,9 +197,6 @@ google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会�
 ## License
 
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](./License)。
-
-## 赞助
-<img src="./assets/images/img/zz.png" width=70% height=70%>
 
 ## 相关资源
 
