@@ -1,6 +1,6 @@
 <div align="center">
   
-<p><img src="./assets/images/banners/jekyll.jpg" width=80% height=80%></p>
+<p><img src="./assets/images/banners/jekyll.jpg"></p>
   
 <h3 align="center">
   <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
