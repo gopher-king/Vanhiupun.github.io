@@ -75,8 +75,21 @@
 </div>
 
 ----
+
 <div align="center">
-<p><img src="./assets/images/readme/1.png" width=70% height=70% ></p>
+<p><img src="./assets/images/readme/1.gif" ></p>
+</div>
+
+<div align="center">
+<p><img src="./assets/images/readme/1.png" ></p>
+</div>
+
+<div align="center">
+<p><img src="./assets/images/readme/3.png" ></p>
+</div>
+
+<div align="center">
+<p><img src="./assets/images/readme/2.png" ></p>
 </div>
 
 ----
