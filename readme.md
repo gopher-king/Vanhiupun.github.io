@@ -56,6 +56,11 @@
     <img src="https://img.shields.io/badge/Jekyll%C2%B7Theme%C2%B7Yat-f2cb05?style=flat-square&logo=github&logoColor=181717" 
      alt="Jekyll-yat" />
 </a> 
+  
+<a href="https://raw.githubusercontent.com/vanhiupun/Vanhiupun.github.io/master/assets/images/img/zz.png" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4335?style=flat-square&logo=GitHub%20Sponsors&logoColor=222222" 
+     alt="/GitHub%20Sponsors" />
+</a> 
 </div>
 
 <div align="center">
@@ -191,9 +196,6 @@ This template is Fork from [jeffreytse](https://github.com/jeffreytse/jekyll-the
 ## License
 
 Follow the MIT license. For details, please refer to [LICENSE](./License) .
-
-## Sponsor
-<img src="./assets/images/img/zz.png" width=70% height=70%>
 
 ## related resources
 
