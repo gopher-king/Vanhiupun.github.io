@@ -24,7 +24,7 @@
 </a>
   
 <a href="https://rubygems.org/gems/jekyll-theme-yat" target="_blank">
-    <img src="https://img.shields.io/gem/v/jekyll-theme-yat?style=flat-square"     alt="jekyll-theme-yat" />
+    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"     alt="jekyll-theme-yat" />
 </a> 
 
 <a href="https://github.com/vanhiupun" target="_blank">
