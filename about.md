@@ -34,4 +34,7 @@ title: About
 - 📧 [或者给我发Email](mailto:fanxiaobin422@gmail.com)
 
 #### 赞助
-<img src="./assets/images/img/zz.png">
+<a href="https://raw.githubusercontent.com/vanhiupun/Vanhiupun.github.io/master/assets/images/img/zz.png" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4335?style=flat-square&logo=GitHub%20Sponsors&logoColor=222222" 
+     alt="/GitHub%20Sponsors" />
+</a> 
