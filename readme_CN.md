@@ -194,7 +194,7 @@ google_analytics: "UA-212989441-1"    # 你用Google账号去注册一个就会�
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](./License)。
 
 ## 赞助
-<img src="./assets/images/img/zz.png" >
+<img src="./assets/images/img/zz.png" width=70% height=70%>
 
 ## 相关资源
 
