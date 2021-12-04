@@ -23,6 +23,10 @@
   <img src="https://www.codefactor.io/repository/github/vanhiupun/vanhiupun.github.io/badge" alt="CodeFactor" />
 </a>
   
+<a href="https://codeclimate.com/github/vanhiupun/Vanhiupun.github.io/maintainability">
+  <img src="https://api.codeclimate.com/v1/badges/708da11ffb90a8f6f13b/maintainability" alt="maintainability" />
+</a>
+
 <a href="https://rubygems.org/gems/jekyll-theme-yat" target="_blank">
     <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"     alt="jekyll-theme-yat" />
 </a> 
