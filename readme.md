@@ -1,6 +1,6 @@
 <div align="center">
   
-<p><img src="./assets/images/banners/jekyll.jpg"></p>
+<p><img src="./assets/images/banners/jekyll.jpg" alt="jekyll"></p>
   
 <h3 align="center">
   <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
@@ -8,15 +8,15 @@
 
 
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml" target="_blank">
-    <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg" />
+    <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/jekyll.yml/badge.svg"  alt="jekyll"/>
 </a>
 
 <a href="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master" target="_blank">
-  <img src="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master.svg?style=shield">
+  <img src="https://circleci.com/gh/vanhiupun/Vanhiupun.github.io/tree/master.svg?style=shield" alt="circleci">
 </a> 
  
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/codeql-analysis.yml" target="_blank">
-  <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/codeql-analysis.yml/badge.svg">
+  <img src="https://github.com/vanhiupun/Vanhiupun.github.io/actions/workflows/codeql-analysis.yml/badge.svg" alt="analysis">
 </a> 
   
 <a href="https://github.com/vanhiupun/Vanhiupun.github.io" target="_blank">
@@ -78,19 +78,19 @@
 ----
 
 <div align="center">
-<p><img src="./assets/images/readme/1.gif" ></p>
+<p><img src="./assets/images/readme/1.gif"  alt="gif"></p>
 </div>
 
 <div align="center">
-<p><img src="./assets/images/readme/1.png" ></p>
+<p><img src="./assets/images/readme/1.png"  alt="gif"></p>
 </div>
 
 <div align="center">
-<p><img src="./assets/images/readme/3.png" ></p>
+<p><img src="./assets/images/readme/3.png"  alt="gif"></p>
 </div>
 
 <div align="center">
-<p><img src="./assets/images/readme/2.png" ></p>
+<p><img src="./assets/images/readme/2.png"  alt="gif"></p>
 </div>
 
 ----
